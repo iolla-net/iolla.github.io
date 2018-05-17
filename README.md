@@ -1,2 +1,2 @@
 # wachilt.github.io
-metalith.net is launching soon
+mesalith.net is launching soon
