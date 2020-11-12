@@ -1,134 +1,173 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>iolla - full service website design company based in Scotland</title>
-		<meta name="generator" content="BBEdit 13.5" />
-		<meta name="description" content="A friendly full service website design company based in Scotland.">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
+<head>
+	<meta charset="utf-8">
+	<title>iolla - full service website design company based in Scotland</title>
+	<meta name="generator" content="BBEdit 13.5" />
+	<meta name="description" content="A friendly full service website design company based in Scotland.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>		@keyframes breathe-aside {
+		    0% {opacity: 0.5;}
+		    50% {opacity: 1.0;}
+		    100% {opacity: 0.5;}
+			}
 		
-body {
-	padding: 0 1rem;
-	background-color: #111;
-	color: #eee;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	font-size: 3rem;
-	line-height: 3.5rem;
-	margin: 0 auto;
-	max-width: 1024px;
-	}
-
-.intro {font-weight: bold;}
-
-.intro::before {
-	display: block;
-	content: "IOLLA\A";
-	white-space: pre;
-	font-size: 4rem;
-	font-weight: bold;
-	color: chartreuse;
-	border-bottom: 6px solid chartreuse;
-	padding-bottom: 1%;
-	margin-bottom: 1%;
-	}
-	
-	.intro::after {
-	content: "😸";
-	}
-	
-	.intro:hover::after {
-	content: "😻";
-	}
-
- span {color: orange;}
-.work {margin: 0 0 4% 0}
-.meantime, .contact {font-size: 2rem;}
-.contact a {--mainColor: #fff; background-size: 4px 1px;}
-.copyright, .copyright a  {color: #666;}
-
-.wrap {display: inline;}
-
-aside {
-	display: inline;
-	text-decoration: none;
-	font-size: 1rem;
-	font-style: italic;
-	line-height: 2.5rem;
-	vertical-align: top;
-	animation: breathe-aside 3s ease-out;
-    animation-iteration-count: infinite; 
-    opacity: 0.5;
-	}
-@keyframes breathe-aside {
-    0% {opacity: 0.5;}
-    50% {opacity: 1.0;}
-    100% {opacity: 0.5;}
-	}
-
-@keyframes beating-heart {
-  	0% {transform: scale(1);}
-  	25% {transform: scale(1.2);}
-  	50% {transform: scale(1);}
-  	100% {transform: scale(1);}
-	}
+		@keyframes beating-heart {
+		  	0% {transform: scale(1);}
+		  	25% {transform: scale(1.2);}
+		  	50% {transform: scale(1);}
+		  	100% {transform: scale(1);}
+			}
+				
+		body {
+			padding: 0 1rem;
+			background-color: #111;
+			color: #eee;
+			font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+			font-size: 3rem;
+			line-height: 3.5rem;
+			margin: 0 auto;
+			max-width: 1024px;
+			}
 		
-:root {--mainColor: yellow;}
-
-a {
-	padding: 0 1px;
-  	background:
-    linear-gradient(
-    to bottom, var(--mainColor) 0%,
-    var(--mainColor) 100%
-    );
-	background-position: 0 100%;
-	background-repeat: repeat-x;
-	background-size: 4px 4px;
-  	color: #fff;
-  	text-decoration: none;
-  	transition: background-size .2s;
-}
-
-a:hover {
-  	background-size: 4px 50px;
-  	color: #111;
-	}
-
-.copyright {font-size: 1.4rem;}
-footer .heart {display: inline-block;}
-footer a {background: none;}
-footer a:hover {color: red;}
-.iolla:hover .heart {animation: beating-heart .6s linear infinite;}
-
-@media (max-width: 700px) {
-	body {font-size: 2rem; line-height: 2.5rem;}
-	.intro::before {padding-bottom: 2%; margin-bottom: 2%;}
-	.wrap {display: block;}
-	aside {font-size: 0.75rem; line-height: 1.75rem;}
-	.meantime, .contact {font-size: 1.2rem;}
-	.copyright {font-size: 1rem;}
-	}
+		.intro {font-weight: bold;}
+		
+		.intro::before {
+			display: block;
+			content: "IOLLA\A";
+			white-space: pre;
+			font-size: 4rem;
+			font-weight: bold;
+			color: chartreuse;
+			border-bottom: 6px solid chartreuse;
+			padding-bottom: 1%;
+			margin-bottom: 1%;
+			}
+			
+		.intro::after {content: "😸";}
+		.intro:hover::after {content: "😻";}
+		
+		 span {color: orange;}
+		.work {margin: 0 0 4% 0}
+		.meantime, .contact {font-size: 2rem;}
+		.contact a {--mainColor: #fff; background-size: 4px 1px;}
+		.copyright, .copyright a  {color: #666;}
+		.wrap {display: inline;}
+		
+		aside {
+			display: inline;
+			text-decoration: none;
+			font-size: 1rem;
+			font-style: italic;
+			line-height: 2.5rem;
+			vertical-align: top;
+			animation: breathe-aside 3s ease-out;
+		    animation-iteration-count: infinite; 
+		    opacity: 0.5;
+			}
+				
+		:root {--mainColor: yellow;}
+		
+		a {
+			padding: 0 1px;
+		  	background:
+		    linear-gradient(
+		    to bottom, var(--mainColor) 0%,
+		    var(--mainColor) 100%
+		    );
+			background-position: 0 100%;
+			background-repeat: repeat-x;
+			background-size: 4px 4px;
+		  	color: #fff;
+		  	text-decoration: none;
+		  	transition: background-size .2s;
+		}
+		
+		a:hover {
+		  	background-size: 4px 50px;
+		  	color: #111;
+			}
+		
+		footer .heart {display: inline-block;}
+		footer a {background: none;}
+		footer a:hover {color: red;}
+		.copyright {font-size: 1.4rem;}
+		.iolla:hover .heart {animation: beating-heart .6s linear infinite;}
+		
+		@media (max-width: 700px) {
+			body {font-size: 2rem; line-height: 2.5rem;}
+			.intro::before {padding-bottom: 2%; margin-bottom: 2%;}
+			.meantime, .contact {font-size: 1.2rem;}
+			.wrap {display: block;}
+			aside {font-size: 0.75rem; line-height: 1.75rem;}
+			.copyright {font-size: 1rem;}
+			}
 	</style>
-	</head>
-	<body>
-		<p class="intro">Friendly website development &amp; print design in Scotland. <span>New website coming soon </span></p>
-		<p class="meantime"><i>…meantime, some <strike>music</strike> selected work&rarr;</i></p>
-		<div class="work">
-		<div class="wrap"><a href="https://www.musicatpaxton.co.uk">Music at Paxton</a><aside> &larr;concerts</aside></div>
-		<div class="wrap"><a href="http://www.harrietmackenzie.com">Harriet Mackenzie</a><aside> &larr;musicians</aside></div>
-		<div class="wrap"><a href="http://www.filigrana.co.uk">Filigrana</a><aside> &larr;arts &amp; crafts</aside></div>
-		<div class="wrap"><a href="https://www.ellenchristiansen.co.uk">Ellen Christiansen</a><aside> &larr;artists</aside></div>
-		<div class="wrap"><a href="http://hertfordshirecarpetfitter.co.uk">Herts carpet fitter</a><aside> &larr;trade</aside></div>
-		<div class="wrap"><a href="https://www.scottishtoastmasters.com">Toastmaster Association</a><aside> &larr;hospitality</aside></div>
-		<div class="wrap"><a href="http://www.variationsscotland.co.uk">Variations Scotland</a><aside> &larr;events</aside></div>
-		</div>
-		
-		<p class="contact">Email <a href="javascript:location='mailto:\u006a\u006f\u0068\u006e\u006d\u0063\u006f\u0079\u006e\u0065\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><script type="text/javascript">document.write('\u006a\u006f\u0068\u006e\u006d\u0063\u006f\u0079\u006e\u0065\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')</script></a> or call <a href="tel:07792-827498">07792 827498</a></p>
-		
-	<footer>
-		<p class="copyright">&copy; 2003<script>new Date().getFullYear()>2003&&document.write(" - "+new Date().getFullYear());</script> <a class="iolla" href="https://iolla.net">iolla.net <b class="heart">♥</b></a></p>
-	</footer>
-	
-	</body>
+</head>
+<body>
+<p class="intro">
+	Friendly website development &amp; print design in Scotland. <span>New website coming soon </span>
+</p>
+<p class="meantime">
+	<i>…meantime, some <strike>music</strike> selected work&rarr;</i>
+</p>
+<div class="work">
+	<div class="wrap">
+		<a href="https://www.musicatpaxton.co.uk">Music at Paxton</a>
+		<aside>
+			&larr;concerts
+		</aside>
+	</div>
+	<div class="wrap">
+		<a href="http://www.harrietmackenzie.com">Harriet Mackenzie</a>
+		<aside>
+			&larr;musicians
+		</aside>
+	</div>
+	<div class="wrap">
+		<a href="http://www.filigrana.co.uk">Filigrana</a>
+		<aside>
+			&larr;arts &amp; crafts
+		</aside>
+	</div>
+	<div class="wrap">
+		<a href="https://www.ellenchristiansen.co.uk">Ellen Christiansen</a>
+		<aside>
+			&larr;artists
+		</aside>
+	</div>
+	<div class="wrap">
+		<a href="http://hertfordshirecarpetfitter.co.uk">Herts carpet fitter</a>
+		<aside>
+			&larr;trade
+		</aside>
+	</div>
+	<div class="wrap">
+		<a href="https://www.scottishtoastmasters.com">Toastmaster Association</a>
+		<aside>
+			&larr;hospitality
+		</aside>
+	</div>
+	<div class="wrap">
+		<a href="http://www.variationsscotland.co.uk">Variations Scotland</a>
+		<aside>
+			&larr;events
+		</aside>
+	</div>
+</div>
+<p class="contact">
+	Email <a href="javascript:location='mailto:\u006a\u006f\u0068\u006e\u006d\u0063\u006f\u0079\u006e\u0065\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><script type="text/javascript">
+		document.write('\u006a\u006f\u0068\u006e\u006d\u0063\u006f\u0079\u006e\u0065\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')
+	</script>
+	</a> or call <a href="tel:07792-827498">07792 827498</a>
+</p>
+<footer>
+	<p class="copyright">
+		&copy; 2003<script>
+			new Date().getFullYear()>2003&&document.write(" - "+new Date().getFullYear());
+		</script>
+		<a class="iolla" href="https://iolla.net">iolla.net <b class="heart">♥</b></a>
+	</p>
+</footer>
+</body>
 </html>
