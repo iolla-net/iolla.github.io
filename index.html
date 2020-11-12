@@ -56,23 +56,17 @@ aside {
 	font-style: italic;
 	line-height: 2.5rem;
 	vertical-align: top;
-	-webkit-animation: pulsate 3s ease-out;
-    -webkit-animation-iteration-count: infinite; 
+	animation: breathe-aside 3s ease-out;
+    animation-iteration-count: infinite; 
     opacity: 0.5;
 	}
-@-keyframes pulsate {
+@keyframes breathe-aside {
     0% {opacity: 0.5;}
     50% {opacity: 1.0;}
     100% {opacity: 0.5;}
 	}
 
-@-keyframes pulsate {
-    0% {opacity: 0.5;}
-    50% {opacity: 1.0;}
-    100% {opacity: 0.5;}
-	}
-	
-@keyframes pulsing-heart {
+@keyframes beating-heart {
   	0% {transform: scale(1);}
   	25% {transform: scale(1.2);}
   	50% {transform: scale(1);}
@@ -105,7 +99,7 @@ a:hover {
 footer .heart {display: inline-block;}
 footer a {background: none;}
 footer a:hover {color: red;}
-.iolla:hover .heart {animation: pulsing-heart .6s linear infinite;}
+.iolla:hover .heart {animation: beating-heart .6s linear infinite;}
 
 @media (max-width: 700px) {
 	body {font-size: 2rem; line-height: 2.5rem;}
