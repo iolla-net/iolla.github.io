@@ -1,2 +1,2 @@
 # wachilt.github.io
-**[iolla.net](https://iolla.net/)** is launching soon. Meantime… a holding page.
+The new **[iolla.net](https://iolla.net/)** website will be launching soon. Meantime… here's a wee holding page.
