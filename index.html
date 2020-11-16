@@ -47,18 +47,27 @@ body {
 	background: none;
 	}
 
+.h1 {
+	font-size: 4rem;
+	font-weight: bold;
+	color: chartreuse;
+	background: none;
+	}
+
 .h1:hover {
 	color: chartreuse;
 	cursor: wait;
 	}
-
-.h1:hover::after {
+	
+.h1:after {
 	color: #eee;
 	font-size: 1rem;
 	font-style: italic;
 	font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
 	content: "←Gaelic n. fem. /juLə/ unch.";
 	vertical-align: top;
+    transition: all .5s ease-out;
+    opacity:0;
 	}
 
 .intro {
