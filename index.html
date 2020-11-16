@@ -51,20 +51,16 @@ body {
 	color: chartreuse;
 	cursor: wait;
 	}
-	
-.h1:after {
+
+.h1:hover::after {
 	color: #eee;
 	font-size: 1rem;
 	font-style: italic;
 	font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
 	content: "←Gaelic n. fem. /juLə/ unch.";
 	vertical-align: top;
-    	transition: all 1s;
-    	opacity:0;
 	}
-
-.h1:hover:after {opacity:1;}
-
+		
 .intro {
 	font-weight: bold;
 	border-top: 6px solid chartreuse;
@@ -94,7 +90,7 @@ aside {
 	vertical-align: top;
 	text-decoration: none;
 	animation: breathe-aside 3s ease-out;
-    	animation-iteration-count: infinite; 
+   	 animation-iteration-count: infinite; 
     	opacity: 0.5;
 	}
 		
@@ -124,7 +120,7 @@ footer a {background: none;}
 footer a:hover {color: red;}
 .copyright {font-size: 1.4rem;}
 .iolla:hover .heart {animation: beating-heart .6s linear infinite;}
-
+	
 @media (max-width: 700px) {
 	body {font-size: 2rem; line-height: 2.5rem;}
 	.h1 {font-size: 3.2rem;}
@@ -140,7 +136,7 @@ footer a:hover {color: red;}
 	<body>
 	
 		<audio id="pronounce" src="https://iolla.net/iolla.mp3"></audio>
-	<a class="h1" href="#" onclick="document.getElementById('pronounce').play()">IOLLA</a>
+	<a class="h1" href="#" onmousedown="document.getElementById('pronounce').play()">IOLLA</a>
 		<p class="intro">Friendly website development &amp; print design in Scotland. <span class="orangey"><span class="rainbow">New </span>website coming soon </span></p>
 		<p class="meantime"><i>…meantime, some <strike>music</strike> selected work&rarr;</i></p>
 	<div class="work">
