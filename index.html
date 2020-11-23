@@ -22,26 +22,26 @@
 	}
 	
 @keyframes rainbow {	
-	0%{color: orange;}
-  	25%{color: yellow;}
-	50%{color: chartreuse;}
-	75%{color: red;}
-	100%{color: yellow;}
+	0% {color: orange;}
+  	25% {color: yellow;}
+	50% {color: chartreuse;}
+	75% {color: red;}
+	100% {color: yellow;}
 	}
 		
 body {
 	padding: 1rem 1rem 0 1rem;
 	color: #eee;
 	background-color: #111;
-	font-size: 3rem;
-	line-height: 3.5rem;
+	font-size: 2rem;
+	line-height: 2.5rem;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	margin: 0 auto;
 	max-width: 1024px;
 	}
 
 .h1 {
-	font-size: 4rem;
+	font-size: 3.2rem;
 	font-weight: bold;
 	color: chartreuse;
 	background: none;
@@ -60,7 +60,7 @@ body {
 	content: "←Gaelic n. fem. /juLə/ unch.";
 	vertical-align: top;
 	}
-		
+
 .intro {
 	font-weight: bold;
 	border-top: 6px solid chartreuse;
@@ -77,16 +77,16 @@ body {
 .orangey:hover::after {content: "😻";}
 
 .work {margin: 0 0 4% 0}
-.meantime, .contact {font-size: 2rem;}
+.meantime, .contact {font-size: 1.2rem;}
 .contact a {--mainColor: #fff; background-size: 4px 1px;}
 .copyright, .copyright a  {color: #666;}
-.wrap {display: inline;}
+.wrap {display: block;}
 
 aside {
 	display: inline;
-	font-size: 1rem;
+	font-size: 0.75rem;
+	line-height: 1.75rem;
 	font-style: italic;
-	line-height: 2.5rem;
 	vertical-align: top;
 	text-decoration: none;
 	animation: breathe-aside 3s ease-out;
@@ -118,18 +118,18 @@ a:hover {
 footer .heart {display: inline-block;}
 footer a {background: none;}
 footer a:hover {color: red;}
-.copyright {font-size: 1.4rem;}
+.copyright {font-size: 1rem;}
 .iolla:hover .heart {animation: beating-heart .6s linear infinite;}
 
-@media (max-width: 700px) {
-	body {font-size: 2rem; line-height: 2.5rem;}
-	.h1 {font-size: 3.2rem;}
-	.h1:hover::after {font-size: 0.75rem;}
-	.intro {padding-bottom: 2%; margin-bottom: 2%;}
-	.meantime, .contact {font-size: 1.2rem; line-height: 1.5rem; margin: 8% 0;}
-	.wrap {display: block;}
-	aside {font-size: 0.75rem; line-height: 1.75rem;}
-	.copyright {font-size: 1rem;}
+ /* view on the 'big' screen */ 
+@media (min-width: 700px) {
+	body {font-size: 3rem; line-height: 3.5rem;}
+	.h1 {font-size: 4rem;}
+	.intro {}
+	.meantime, .contact {font-size: 2rem; padding: 0;}
+	.wrap {display: inline;}
+	aside {font-size: 1rem; line-height: 2.5rem;}
+	.copyright {font-size: 1.4rem;}
 	}
 	</style>
 	</head>
