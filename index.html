@@ -22,12 +22,12 @@
 
 @font-face {/* Atkinson Hyperlegible (bold) */
   font-family: 'Ah-bold';
-  src: url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.eot'); /* IE9 Compat Modes */
-  src: url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2'), /* Hyper Modern Browsers */
-       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.woff') format('woff'), /* Pretty Modern Browsers */
-       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('atkinson-hyperlegible/Atkinson-Hyperlegible-bold-102.eot'); /* IE9 Compat Modes */
+  src: url('atkinson-hyperlegible/Atkinson-Hyperlegible-bold-102.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-bold-102a.woff2') format('woff2'), /* Hyper Modern Browsers */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-bold-102.woff') format('woff'), /* Pretty Modern Browsers */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-bold-102.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-bold-102.svg#svgFontName') format('svg'); /* Legacy iOS */
   font-weight: normal;
   font-style: normal;
 }
@@ -103,6 +103,7 @@ body {
 
 .work {margin: 0 0 4% 0}
 .meantime, .contact {font-size: 2rem;}
+.meantime::after {content: "→"; font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
 .contact a {--mainColor: #fff; background-size: 4px 1px;}
 .copyright, .copyright a, .font-credit, .amp {color: #666;}
 .wrap {display: inline;}
@@ -172,7 +173,7 @@ footer a:hover {color: red;}
 		<audio id="pronounce" src="https://iolla.net/iolla.mp3"></audio>
 	<a class="h1" href="#" onclick="document.getElementById('pronounce').play()">iOlla</a>
 		<p class="intro">Friendly website development &amp; print design in Scotland. <span class="orangey"><span class="rainbow">New </span>website coming soon </span></p>
-		<p class="meantime"><i>…meantime, some <strike>music</strike> selected work&rarr;</i></p>
+		<p class="meantime"><i>…meantime, some <strike>music</strike> selected work</i></p>
 	<div class="work">
 		<div class="wrap"><a href="https://www.musicatpaxton.co.uk">Music at Paxton</a><aside>concerts</aside></div>
 		<div class="wrap"><a href="http://www.harrietmackenzie.com">Harriet Mackenzie</a><aside>musicians</aside></div>
