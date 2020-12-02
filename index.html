@@ -52,7 +52,7 @@
 	75%{color: red;}
 	100%{color: yellow;}
 	}
-	
+		
 html {-webkit-text-size-adjust: 100%;}
 		
 body {
@@ -104,7 +104,6 @@ body {
 
 .work {margin: 0 0 4% 0}
 .meantime, .contact {font-size: 2rem;}
-.meantime::after {content: "→"; font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
 .contact a {--mainColor: #fff; background-size: 4px 1px;}
 .copyright, .copyright a, .font-credit, .amp {color: #666;}
 .wrap {display: inline;}
@@ -150,11 +149,11 @@ a:hover {
   	color: #111;
 	}
 
-footer {line-height: 0;}
-footer .heart {display: inline-block;}
+footer {line-height: 0.1rem;}
 footer a {background: none;}
 footer a:hover {color: red;}
 .copyright, .font-credit, .amp {font-size: 1.4rem;}
+.heart {display: inline-block;}
 .iolla:hover .heart {animation: beating-heart .6s linear infinite;}
 
 @media (max-width: 700px) {
@@ -174,7 +173,7 @@ footer a:hover {color: red;}
 		<audio id="pronounce" src="https://iolla.net/iolla.mp3"></audio>
 	<a class="h1" href="#" onclick="document.getElementById('pronounce').play()">iOlla</a>
 		<p class="intro">Friendly website development &amp; print design in Scotland. <span class="orangey"><span class="rainbow">New </span>website coming soon </span></p>
-		<p class="meantime"><i>…meantime, some <strike>music</strike> selected work</i></p>
+		<p class="meantime"><i>…meantime, some <strike>music</strike> selected work&rarr;</i></p>
 	<div class="work">
 		<div class="wrap"><a href="https://www.musicatpaxton.co.uk">Music at Paxton</a><aside>concerts</aside></div>
 		<div class="wrap"><a href="http://www.harrietmackenzie.com">Harriet Mackenzie</a><aside>musicians</aside></div>
@@ -185,6 +184,6 @@ footer a:hover {color: red;}
 		<div class="wrap"><a href="http://www.variationsscotland.co.uk">Variations Scotland</a><aside>events</aside></div>
 	</div>
 		<p class="contact">Email <a href="javascript:location='mailto:\u006a\u006f\u0068\u006e\u006d\u0063\u006f\u0079\u006e\u0065\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><script type="text/javascript">document.write('\u006a\u006f\u0068\u006e\u006d\u0063\u006f\u0079\u006e\u0065\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')</script></a> or call <a href="tel:07792-827498">07792 827498</a></p>
-		<footer><p class="copyright">&copy; 2003<script>new Date().getFullYear()>2003&&document.write(" - "+new Date().getFullYear());</script> <a class="iolla" href="https://iolla.net">iolla.net <b class="heart">♥</b></a></p><span class="amp">&amp; </span><a class="font-credit" href="https://www.brailleinstitute.org/freefont">Atkinson Hyperlegible</a></footer>
+		<footer><p class="copyright">&copy; 2003<script>new Date().getFullYear()>2003&&document.write("-"+new Date().getFullYear());</script> <a class="iolla" href="https://iolla.net">iolla.net <span class="heart">♥</span></a></p><span class="amp">&amp; </span><a class="font-credit" href="https://www.brailleinstitute.org/freefont">Atkinson Hyperlegible</a></footer>
 	</body>
 </html>
