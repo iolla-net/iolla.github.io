@@ -1,2 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>iolla - full service website design company based in Scotland</title>
+		<meta name="generator" content="Ladies and gentlemen there are pretenders to throne, but there is only one king, the undisputed king! BBEdit 13.5" />
+		<meta name="description" content="A friendly full service website design company based in Scotland.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
 
-This is a 404 test
+@font-face {/* Atkinson Hyperlegible. A new typeface – greater legibility and readability for low vision readers */
+  font-family: 'Ah-regular';
+  src: url('atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102.eot'); /* IE9 Compat Modes */
+  src: url('atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'), /* Hyper Modern Browsers */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102.woff') format('woff'), /* Pretty Modern Browsers */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {/* Atkinson Hyperlegible (bold) */
+  font-family: 'Ah-bold';
+  src: url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.eot'); /* IE9 Compat Modes */
+  src: url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2'), /* Hyper Modern Browsers */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.woff') format('woff'), /* Pretty Modern Browsers */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes breathe-aside {
+    	0% {opacity: 0.5;}
+    	50% {opacity: 1.0;}
+    	100% {opacity: 0.5;}
+	}
+
+@keyframes beating-heart {
+  	0% {transform: scale(1);}
+  	25% {transform: scale(1.2);}
+  	50% {transform: scale(1);}
+  	100% {transform: scale(1);}
+	}
+	
+@keyframes rainbow {	
+	0%{color: orange;}
+  	25%{color: yellow;}
+	50%{color: chartreuse;}
+	75%{color: red;}
+	100%{color: yellow;}
+	}
+		
+html {-webkit-text-size-adjust: 100%;}
+		
+body {
+	padding: 1rem 1rem 0 1rem;
+	color: #eee;
+	background-color: #111;
+	font-size: 3rem;
+	line-height: 3.5rem;
+	font-family: 'Ah-regular', sans-serif;
+	margin: 0 auto;
+	max-width: 1024px;
+	}
+
+.h1 {
+	font-family: 'Ah-bold', sans-serif;
+	font-size: 4rem;
+	color: chartreuse;
+	background: none;
+	}
+
+.h1:hover {
+	color: chartreuse;
+	cursor: wait;
+	}
+
+.h1:hover::after {
+	color: #eee;
+	font-size: 1.2rem;
+	font-style: italic;
+	font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+	content: "←Gaelic n. fem. /juLə/ unch.";
+	vertical-align: top;
+	}
+
+.intro {
+	font-family: 'Ah-bold', sans-serif;
+	border-top: 6px solid chartreuse;
+	padding-bottom: 1%;
+	padding-top: 10px;
+	margin-top: 0;
+	}
+
+.rainbow {animation: rainbow 5s infinite;}
+
+.orangey {color: orange;}
+.orangey:hover {cursor: wait;}
+.orangey::after {content: "😸";}
+.orangey:hover::after {content: "😻";}
+
+.work {margin: 0 0 4% 0}
+.meantime, .contact {font-size: 2rem;}
+.contact a {--mainColor: #fff; background-size: 4px 1px;}
+.copyright, .copyright a, .font-credit, .amp {color: #666;}
+.wrap {display: inline;}
+
+aside, .heart {font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
+
+aside {
+	display: inline-block;
+	font-size: 1rem;
+	font-style: italic;
+	line-height: 2.5rem;
+	vertical-align: top;
+	padding-left: 0.5%;
+	text-decoration: none;
+	animation: breathe-aside 3s ease-out;
+    animation-iteration-count: infinite; 
+    opacity: 0.5;
+	}
+	
+aside::before {content: "←";
+	vertical-align: top;
+	display: inline;
+	}
+		
+:root {--mainColor: yellow;}
+
+a {
+	padding: 0 1px;
+  	background:
+    linear-gradient(
+    to bottom, var(--mainColor) 0%,
+    var(--mainColor) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
+  	color: #fff;
+  	text-decoration: none;
+  	transition: background-size .2s;
+	}
+
+a:hover {
+  	background-size: 4px 50px;
+  	color: #111;
+	}
+
+footer {font-size: 1.4rem; line-height: 0.1rem;}
+footer a {background: none;}
+footer a:hover {color: #ffa3b3;}
+.heart {display: inline-block;}
+.iolla:hover .heart {animation: beating-heart .6s linear infinite; color: red;}
+
+@media (max-width: 700px) {
+	body {font-size: 2rem; line-height: 2.5rem;}
+	.h1 {font-size: 3.2rem;}
+	.h1:hover::after {font-size: 1rem;}
+	.intro {padding-bottom: 2%; margin-bottom: 2%;}
+	.meantime, .contact {font-size: 1.2rem; line-height: 1.5rem; margin: 8% 0;}
+	.wrap {display: block;}
+	aside {font-size: 0.75rem; line-height: 1.75rem;}
+	footer {font-size: 1rem;}
+	}
+
+@media only screen and (max-device-width : 700px) and (orientation : landscape) {
+.intro {font-size: 1.8rem; line-height: 2.2rem; padding-bottom: 0%; margin-bottom: 0%;}
+.meantime {margin: 5% 0;}
+.work {font-size: 1.8rem; line-height: 2.3rem;}
+.wrap {display: inline;}
+}
+
+	</style>
+	</head>
+	<body>
+	
+		<audio id="pronounce" src="https://iolla.net/iolla.mp3"></audio>
+	<a class="h1" href="#" onclick="document.getElementById('pronounce').play()">iOlla</a>
+		<p class="intro">Friendly website development &amp; print design in Scotland. <span class="orangey"><span class="rainbow">New </span>website coming soon </span></p>
+		<p class="meantime"><i>…meantime, some <strike>music</strike> selected work&rarr;</i></p>
+	<div class="work">
+		<div class="wrap"><a href="https://www.musicatpaxton.co.uk">Music at Paxton</a><aside>concerts</aside></div>
+		<div class="wrap"><a href="http://www.harrietmackenzie.com">Harriet Mackenzie</a><aside>musicians</aside></div>
+		<div class="wrap"><a href="http://www.filigrana.co.uk">Filigrana</a><aside>arts &amp; crafts</aside></div>
+		<div class="wrap"><a href="https://www.ellenchristiansen.co.uk">Ellen Christiansen</a><aside>artists</aside></div>
+		<div class="wrap"><a href="http://hertfordshirecarpetfitter.co.uk">Herts carpet fitter</a><aside>trade</aside></div>
+		<div class="wrap"><a href="https://www.scottishtoastmasters.com">Toastmaster Association</a><aside>hospitality</aside></div>
+		<div class="wrap"><a href="http://www.variationsscotland.co.uk">Variations Scotland</a><aside>events</aside></div>
+	</div>
+		<p class="contact">Email <a href="javascript:location='mailto:\u006a\u006f\u0068\u006e\u006d\u0063\u006f\u0079\u006e\u0065\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><script type="text/javascript">document.write('\u006a\u006f\u0068\u006e\u006d\u0063\u006f\u0079\u006e\u0065\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')</script></a> or call <a href="tel:07792-827498">07792 827498</a></p>
+		<footer><p class="copyright">&copy; 2003<script>new Date().getFullYear()>2003&&document.write("-"+new Date().getFullYear());</script> <a class="iolla" href="https://iolla.net">iolla.net <span class="heart">♥</span></a></p><span class="amp">&amp; </span><a class="font-credit" href="https://www.brailleinstitute.org/freefont">Atkinson Hyperlegible</a></footer>
+	</body>
+</html>
