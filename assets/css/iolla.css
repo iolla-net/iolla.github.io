@@ -447,7 +447,7 @@ h1 + .intro {
   padding: 1.5rem 3rem;
   margin-bottom: 1rem;
   background: var(--clr-blockquote-bkgd);
-  background-image: url("../images/quote-mark-open.svg"), url("../images/quote-mark-close.svg");
+  background-image: url("https://iolla.net/assets/images/quote-mark-open.svg"), url("https://iolla.net/assets/images/quote-mark-close.svg");
   background-position: left 10px top 10px, right 20px bottom 20px;
   background-repeat: no-repeat, no-repeat;
   background-size: 15%, 25%, auto;
