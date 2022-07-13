@@ -237,7 +237,7 @@ a:hover, a:focus, a:active {
 	}
 
 /* Misc */
-.hear-iolla, .colophon {
+.hear-iolla {
   position: relative;
   display: inline-block;
 }
@@ -274,6 +274,10 @@ a:hover, a:focus, a:active {
 @media all and (min-width: 58em) {
   .colophon:hover .read-iolla {
     visibility: visible;
+  }
+  .colophon {
+  position: relative;
+  display: inline-block;
   }
 }
 
