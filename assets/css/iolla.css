@@ -240,11 +240,8 @@ a:hover, a:focus, a:active {
 .hear-iolla {
   position: relative;
   display: inline-block;
-}
-
-.hear-iolla {
-	text-decoration: underline;
-	text-decoration-style: wavy;
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }
 
 .colophon .iolla {text-decoration: underline;}
