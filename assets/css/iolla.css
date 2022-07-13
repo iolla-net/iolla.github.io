@@ -1142,7 +1142,7 @@ body {
 }
 
 @media all and (min-width: 58em) {
-  .peak {padding: 0 1rem 1rem 0;}
+  .peak {padding: 0 1rem;}
 }
 
 .footer .heart {
