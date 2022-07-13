@@ -1138,7 +1138,7 @@ body {
 .peak {
 	max-width: 48rem;
 	margin: 0 auto;
-	padding: 0 .75rem;
+	padding: 0 .75rem .75rem .75rem;
 	font-size: .875rem;
 	text-align: right;
 }
@@ -1146,11 +1146,11 @@ body {
 .peak a {border-bottom: none;}
 
 @media all and (min-width: 31.5em) {
-  .peak {padding: 0 1.5rem;}
+  .peak {padding: 0 1.5rem 1.5rem 1.5rem;}
 }
 
 @media all and (min-width: 58em) {
-  .peak {padding: 0 1rem;}
+  .peak {padding: 0 1rem 1rem 1rem;}
 }
 
 .footer .heart {
