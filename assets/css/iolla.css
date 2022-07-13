@@ -269,12 +269,12 @@ a:hover, a:focus, a:active {
 }
 
 @media all and (min-width: 58em) {
+.colophon {
+   position: relative;
+   display: inline-block;
+  }
   .colophon:hover .read-iolla {
     visibility: visible;
-  }
-  .colophon {
-  position: relative;
-  display: inline-block;
   }
 }
 
