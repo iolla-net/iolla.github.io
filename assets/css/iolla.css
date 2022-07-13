@@ -242,7 +242,7 @@ a:hover, a:focus, a:active {
   display: inline-block;
 }
 
-.hear-iolla {text-decoration: underline wavy;}
+.hear-iolla {text-decoration: underline; text-decoration-style: wavy;}
 .colophon .iolla {text-decoration: underline;}
 
 .hear-iolla .say-iolla, .colophon .read-iolla {
