@@ -9,7 +9,9 @@
   --padding: 1.5rem;
   --clr-site-bkgd: #fffff8;
   --clr-dots: #e6e6e6;
-  --dot-size: 1px;
+  --dot-circ: 1px;
+  --dot-bkgd-pos: 8px;
+  --dot-bkgd-size: 16px;
   --clr-h2-span: #d7697c;
   --clr-underline: #d7697c;
   --clr-lvha: #d7697c;
@@ -967,10 +969,10 @@ html {
 
 body {
   color: var(--clr-text);
-	background-image: radial-gradient(var(--clr-dots) var(--dot-size),
-	  transparent 0),radial-gradient(var(--clr-dots) var(--dot-size),var(--clr-site-bkgd) 0);
-	background-position: 0 0,16px 16px;
-	background-size: 32px 32px;
+	background-image: radial-gradient(var(--clr-dots) var(--dot-circ),
+	  transparent 0),radial-gradient(var(--clr-dots) var(--dot-circ),var(--clr-site-bkgd) 0);
+	background-position: 0 0,var(--dot-bkgd-pos) var(--dot-bkgd-pos);
+	background-size: var(--dot-bkgd-size) var(--dot-bkgd-size);
 	opacity: 1;
 }
 

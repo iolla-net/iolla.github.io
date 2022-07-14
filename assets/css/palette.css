@@ -33,7 +33,9 @@
   :root:not([data-user-color-scheme]) {
   --clr-site-bkgd: var(--clr-dark);
   --clr-dots: #000000;
-  --dot-size: 1px;
+  --dot-circ: 1px;
+  --dot-bkgd-pos: 16px;
+  --dot-bkgd-size: 32px;
   --clr-h2-span: #ae8fdb;
   --clr-underline: #ae8fdb;
   --btn-icon: var(--icon-sun);
@@ -77,7 +79,9 @@
 [data-user-color-scheme="dark"] {
   --clr-site-bkgd: var(--clr-dark);
   --clr-dots: #000000;
-  --dot-size: 1px;
+  --dot-circ: 1px;
+  --dot-bkgd-pos: 16px;
+  --dot-bkgd-size: 32px;
   --clr-h2-span: #ae8fdb;
   --clr-underline: #ae8fdb;
   --btn-icon: var(--icon-sun);
