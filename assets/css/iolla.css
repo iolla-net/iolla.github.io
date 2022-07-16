@@ -997,7 +997,7 @@ body {
   align-items: center;
   max-width: 48rem;
   margin: 0 auto 2rem;
-  padding: 0 1rem;
+  padding: 0 .75rem;
 }
 
 .logo {
