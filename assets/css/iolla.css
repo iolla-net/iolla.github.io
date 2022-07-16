@@ -997,6 +997,7 @@ body {
   align-items: center;
   max-width: 48rem;
   margin: 0 auto 2rem;
+  padding: 0 1rem;
 }
 
 .logo {
@@ -1004,7 +1005,6 @@ body {
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.8rem;
-  margin: 0 1rem;
   border-bottom: 0;
   color: var(--clr-logo);
 }
@@ -1042,10 +1042,10 @@ body {
   font-weight: normal;
   height: 100%;
   line-height: 1.2rem;
+  gap: 10px 40px;
 }
 
 .menu a {
- margin: 0 1rem;
  display: block;
  background-size: 4px 100%;
 }
