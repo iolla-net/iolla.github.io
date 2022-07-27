@@ -48,7 +48,7 @@
 }
 
 /*
-  ## Table of Contents
+  ## TOC
 
   1 Global Rules & Definitions
   1.1 Font Definitions
@@ -74,6 +74,8 @@
   4.2 Blog Article
   4.3 Plates - content containers for core grids
   4.4 Info page supplemental typography
+  
+  5 Support props for hdpi/wide screen
 */
 
 /* ===== 1 Global Rules & Definitions ===================================== */
@@ -202,13 +204,12 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus, a:active {
-  color: var(--clr-lvha);
-  -webkit-transition: .25s;
-  transition: .25s;
-}
-
-.toggle-button__text:hover, .toggle-button__text:focus, .toggle-button__text:active {
+a:hover,
+a:focus,
+a:active,
+.toggle-button__text:hover,
+.toggle-button__text:focus,
+.toggle-button__text:active {
  color: var(--clr-lvha);
   -webkit-transition: .25s;
   transition: .25s;
@@ -949,7 +950,7 @@ html {
 
 @media all and (max-width: 30em) {
   html {
-    /* Decrease font-size for tiny screens. */
+    /* Decrease font-size for tiny screen */
     font-size: 1.25em;
   }
 }
@@ -1037,17 +1038,15 @@ body {
 
 .menu a {
  display: block;
- background-size: 4px 100%;
+ background-size: 0px 100%;
 }
 
-.menu-item {border-bottom: 0;}
+.menu-item, .palette a {border-bottom: 0;}
 
 .menu a[aria-current] {
   text-decoration: underline;
   text-decoration-color: var(--clr-underline-lvha);
 }
-
-.palette a {border-bottom: 0}
 
 .menu-item:hover,
 .footer-menu a:hover,
@@ -1081,13 +1080,11 @@ body {
 
 @media all and (min-width: 30em) {
   .menu-item:hover,
+  .menu-item.is-active,
   .footer-menu a:hover,
+  .footer-privacy.is-active a,
   .footer-privacy a:hover,
   .toggle-button__text:hover {
-	  background-position: 0 23px;
-}
-
-  .menu-item.is-active, .footer-privacy.is-active a {
 	  background-position: 0 23px;
 }
 
@@ -1327,4 +1324,101 @@ span.location {
   .info-supplemental p:not(:first-of-type) {
     width: 33.33%;
   }
+}
+
+/* ----- 5 Support props for hdpi/wide screen --------------------------------------------- */
+
+@media all and (min-width: 100em) {
+  .wrap:not(.wide) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    }  
+
+html {
+	/* increase font for wide screen */
+	font-size: 2.5em;
+	line-height: 1.7em;
+	}
+    
+.logo:hover {background-position: 0 58px;}
+
+.menu {gap: 10px 80px;}
+
+.menu-item:hover,
+.menu-item.is-active,
+.footer-menu a:hover,
+.footer-privacy.is-active a,
+.footer-privacy a:hover,
+.toggle-button__text:hover {
+	background-position: 0 38px;
+	}
+	
+.footer .menu-item.is-active,
+.footer-menu a:hover,
+.footer-privacy.is-active a,
+.footer-privacy a:hover {background-position: 0 34px;}
+	
+p.dropcap:not(:focus):first-letter {
+	padding: 20px 10px 20px 10px;
+	border-radius: 10px;
+	}
+	
+hr {height: 20px;} 
+	
+.text blockquote {
+	border-radius: 20px;
+	background-position: left 40px top 40px, right 60px bottom 60px;
+	line-height: 1.5em;
+	}
+	
+.hear-iolla .say-iolla, .colophon .read-iolla {
+	font-size: 0.7rem;
+  	padding: 8px;
+  	border-radius: 8px;
+  	width: 240px;
+  	margin-left: -120px; /* half the width (240/2=120) to center tooltip */
+	}
+	
+.focal figure img {
+  	border: 2px solid var(--clr-img-edge);
+  	border-radius: 20px;
+	}
+	
+.focal > figure:last-of-type img {border: 8px solid var(--clr-img-edge-focal);}
+
+.plate svg {width: 180px; height: 180px;}
+.pagination-item svg {width: 40px; height: 40px;}
+.pagination-label {font-size: 0.8rem; width: 1.7rem;}
+.work-grid, .tag-grid {grid-gap: 0.8rem;}
+.work-grid li, .tag-grid li, .grid > .column {border-radius: 20px;}
+.plate-content, .plate-fact {line-height: 1.5em;}
+.plate-action.btn {border-radius: 0px 0px 20px 20px;}
+.header, .footer, .peak {padding: 0 2rem;}
+.footer {padding-top: 1.8rem;}
+}
+
+@media all and (min-width: 150em) {
+  html {
+	/* increase font for x-wide screen */
+	font-size: 3em;
+	}
+
+.logo:hover {background-position: 0 70px;}
+
+.menu-item:hover,
+.menu-item.is-active,
+.footer-menu a:hover,
+.footer-privacy.is-active a,
+.footer-privacy a:hover,
+.toggle-button__text:hover {
+	background-position: 0 46px;
+	}
+
+.footer .menu-item.is-active,
+.footer-menu a:hover,
+.footer-privacy.is-active a,
+.footer-privacy a:hover {background-position: 0 41px;}
+
+.plate svg {width: 220px; height: 220px;}
+.pagination-item svg {width: 50px; height: 50px;} 
 }
