@@ -1339,6 +1339,8 @@ html {
 	font-size: 2.5em;
 	line-height: 1.7em;
 	}
+	
+.footer {line-height: 1.5em;}
     
 .logo:hover {background-position: 0 58px;}
 
