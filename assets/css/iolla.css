@@ -1272,6 +1272,14 @@ span.location {
 
 .plate svg {margin: 1rem 1.5rem 0em 1em}
 
+/*- 404 SVG -*/
+.plate div > svg {
+    display: block;
+    margin: 0 auto;
+    width: 94%;
+    height: 100%;
+}
+
 .plate div > svg {display: block; margin: 0 auto; width: 94%;}
 
 .plate-title {
