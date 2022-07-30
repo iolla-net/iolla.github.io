@@ -1159,6 +1159,8 @@ span.location {
 
 .footer-peak {
   justify-self: end;
+  text-align: right;
+  margin-top: 1em;
 }
 
 .footer-peak a {border-bottom: none;}
@@ -1178,7 +1180,6 @@ span.location {
     margin: 0 auto;
     }
 
-
   .footer {padding: 3rem;}
 
   .footer-menu {
@@ -1193,8 +1194,6 @@ span.location {
   .footer-privacy svg {fill: var(--clr-icon);}
 
   .footer-peak {
-  	justify-self: end;
-  	text-align: right;
     grid-column-start: 3;
     grid-row-start: 2;
     }
