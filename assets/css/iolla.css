@@ -1171,7 +1171,7 @@ span.location {
   .header {padding: 0 1.5rem;}
 }
 
-@media all and (min-width: 58em) {
+@media all and (min-width: 54em) {
   .footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
