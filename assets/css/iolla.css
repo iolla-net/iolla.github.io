@@ -1260,8 +1260,6 @@ span.location {
   margin-top: 3rem;
   padding-top: 2rem;
   background-color: var(--clr-work-bkgd);
-  margin: 0 .75rem;
-  border-radius: 10px;
 }
 
 .plate-envelop-more .btn {border-radius: 0px 0px 10px 10px;}
