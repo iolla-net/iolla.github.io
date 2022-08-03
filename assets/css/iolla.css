@@ -1210,15 +1210,19 @@ span.location {
 
 /* ----- 4.1 Homepage ----------------------------------------------------- */
 
-.work-section {
+.plate-envelop {
   margin-top: 3rem;
-  padding-top: 2.25rem;
+  padding-top: 2rem;
   background-color: var(--clr-work-bkgd);
+  margin: 0 .75rem;
+  border-radius: 10px;
 }
 
-.work-section-more {
+.plate-envelop-more {
   text-align: center;
 }
+
+.plate-envelop-more .btn {border-radius: 0px 0px 10px 10px;}
 
 /* ----- 4.2 Blog Article -------------------------------------------------- */
 
