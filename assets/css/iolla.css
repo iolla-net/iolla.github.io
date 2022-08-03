@@ -1262,7 +1262,6 @@ span.location {
   background-color: var(--clr-work-bkgd);
   margin: 0 .75rem;
   border-radius: 10px;
-  border: 1px solid var(--clr-plate-edge);
 }
 
 .plate-envelop-more .btn {border-radius: 0px 0px 10px 10px;}
