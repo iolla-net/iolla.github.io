@@ -70,10 +70,9 @@
   3.4 Main Content
 
   4 Template-specific Components
-  4.1 Homepage
-  4.2 Blog Article
-  4.3 Plates - content containers for core grids
-  4.4 Info page supplemental typography
+  4.1 Blog Article
+  4.2 Plates - content containers for core grids
+  4.3 Info page supplemental typography
 
   5 Support props for hdpi/wide screen
 */
@@ -1208,23 +1207,7 @@ span.location {
 
 /* ===== 4 Template-specific Components ==================================== */
 
-/* ----- 4.1 Homepage ----------------------------------------------------- */
-
-.plate-envelop {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  background-color: var(--clr-work-bkgd);
-  margin: 0 .75rem;
-  border-radius: 10px;
-}
-
-.plate-envelop-more {
-  text-align: center;
-}
-
-.plate-envelop-more .btn {border-radius: 0px 0px 10px 10px;}
-
-/* ----- 4.2 Blog Article -------------------------------------------------- */
+/* ----- 4.1 Blog Article -------------------------------------------------- */
 
 .article-title {
   font-weight: 100;
@@ -1253,7 +1236,7 @@ span.location {
   border-bottom: 4px solid var(--clr-hr);
 }
 
-/* ----- 4.3 Plates ------------------------------------------------------ */
+/* ----- 4.2 Plates ------------------------------------------------------ */
 
 .plate {
   background: var(--clr-plate-bkgd);
@@ -1272,6 +1255,16 @@ span.location {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.plate-envelop {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  background-color: var(--clr-work-bkgd);
+  margin: 0 .75rem;
+  border-radius: 10px;
+}
+
+.plate-envelop-more .btn {border-radius: 0px 0px 10px 10px;}
 
 .plate svg {margin: 1rem 1.5rem 0em 1em}
 
@@ -1318,7 +1311,7 @@ span.location {
   .plate svg {margin: 1.5rem 1.5rem 0em 2.25em}
 }
 
-/* ----- 4.4 Info page supplemental typography ------------------------ */
+/* ----- 4.3 Info page supplemental typography ------------------------ */
 
 .info-supplemental {
   text-align: left;
