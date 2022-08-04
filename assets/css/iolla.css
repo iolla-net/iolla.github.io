@@ -960,7 +960,7 @@ html {
 body {
   color: var(--clr-text);
   /* Required for sticky footer. */
-  height: 100%;
+  min-height: 100%;
 }
 
 /* Remove all animations & transitions for people that prefer not to see them */
