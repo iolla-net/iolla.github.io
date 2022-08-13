@@ -30,21 +30,20 @@
 
   :root:not([data-user-color-scheme]) {
   --clr-site-bkgd: var(--clr-dark);
+  --clr-main-bkgd: black;
   --clr-dots: #000000;
   --dot-bkgd-pos: 16px;
   --dot-bkgd-size: 32px;
   --clr-h2-span: #ae8fdb;
   --clr-underline: #ae8fdb;
   --btn-icon: var(--icon-sun);
-  --clr-btn-dots-hvr: #15103c;
-  --clr-btn-label-hvr: var(--clr-light);
+  --clr-btn-label-hvr: #a185d6;
   --clr-lvha: #d8c5fd;
   --clr-logo: #a185d6;
   --clr-logo-lvha: #ae8fdb;
   --clr-text: var(--clr-light);
   --clr-dcap-bkgd: #4c3a69;
   --clr-underline-lvha: #ae8fdb;
-  --clr-work-bkgd: #3a3753;
   --work-static-opacity: rgba(0,0,0, .4);
   --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
   --clr-work-fig-text: var(--clr-light);
@@ -66,29 +65,27 @@
   --btn-clr: var(--clr-light);
   --border-clr: var(--clr-light-alpha);
   --clr-blockquote-bkgd: #3a3753;
-  --clr-img-edge: #000000;
-  --clr-img-edge-focal: #d6c3fb;
+  --clr-img-edge: #d6c3fb;
   --filter-img-brightness: brightness(.8);
   }
 }
 
 [data-user-color-scheme="dark"] {
   --clr-site-bkgd: var(--clr-dark);
+  --clr-main-bkgd: black;
   --clr-dots: #000000;
   --dot-bkgd-pos: 16px;
   --dot-bkgd-size: 32px;
   --clr-h2-span: #ae8fdb;
   --clr-underline: #ae8fdb;
   --btn-icon: var(--icon-sun);
-  --clr-btn-dots-hvr: #15103c;
-  --clr-btn-label-hvr: var(--clr-light);
+  --clr-btn-label-hvr: #a185d6;
   --clr-lvha: #d8c5fd;
   --clr-logo: #a185d6;
   --clr-logo-lvha: #ae8fdb;
   --clr-text: var(--clr-light);
   --clr-dcap-bkgd: #4c3a69;
   --clr-underline-lvha: #ae8fdb;
-  --clr-work-bkgd: #3a3753;
   --work-static-opacity: rgba(0,0,0, .4);
   --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
   --clr-work-fig-text: var(--clr-light);
@@ -110,8 +107,7 @@
   --btn-clr: var(--clr-light);
   --border-clr: var(--clr-light-alpha);
   --clr-blockquote-bkgd: #3a3753;
-  --clr-img-edge: #000000;
-  --clr-img-edge-focal: #d6c3fb;
+  --clr-img-edge: #d6c3fb;
   --filter-img-brightness: brightness(.8);
 }
 
