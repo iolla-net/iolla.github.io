@@ -244,7 +244,7 @@ a:active,
 
 .hear-iolla .say-iolla, .colophon .read-iolla {
   visibility: hidden;
-  background-color: black;
+  background-color: #333;
   color: #fff;
   font-size: 0.6rem;
   text-align: center;
