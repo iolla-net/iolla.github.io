@@ -492,12 +492,12 @@ h1 + .intro {
 }
 
 @keyframes attractor {
-  0% {transform: translateX(.2em);}
-  100% {transform: translateX(0);}
+  50% {transform: translateX(0);}
+  100% {transform: translateX(.2em);}
 }
 
 .attractor {
-	animation: attractor 0.5s ease-out 0.5s infinite;
+	animation: attractor 0.5s ease-in-out infinite alternate-reverse;
 	display: inline-block;
 	font-size: 1.2em;
 }
