@@ -477,6 +477,7 @@ h1 + .intro {
 .btn {
   display: block;
   border: 0;
+  margin-top: 1.5rem;
   white-space: nowrap;
   font-size: .75em;
   font-family: Montserrat-semibold, Helvetica, Arial, sans-serif;
@@ -510,6 +511,8 @@ h1 + .intro {
 .close {animation: glint 1s infinite;}
 
 /* ----- 2.3 Grids & Layout ------------------------------------------------ */
+
+.work-grid, .facet.grid:not(.error) {margin: 0;}
 
 .grid {
   --columns: 12;
