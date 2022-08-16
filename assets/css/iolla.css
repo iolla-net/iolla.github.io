@@ -512,7 +512,7 @@ h1 + .intro {
 
 /* ----- 2.3 Grids & Layout ------------------------------------------------ */
 
-.work-grid, .facet.grid:not(.error) {margin: 0;}
+.work-grid, .tag-grid, .facet.grid:not(.error) {margin: 0;}
 
 .grid {
   --columns: 12;
