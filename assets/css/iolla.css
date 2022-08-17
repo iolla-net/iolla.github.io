@@ -68,7 +68,7 @@
 
   4 Template-specific Components
   4.1 Blog Article
-  4.2 Plates - content containers for core grids
+  4.2 Plates (core grid content containers)
   4.3 Info page supplemental typography
 
   5 Support props for hdpi/wide screen
@@ -476,7 +476,7 @@ h1 + .intro {
 .btn {
   display: block;
   border: 0;
-  margin-top: 1.5rem;
+  margin-top: .75rem;
   white-space: nowrap;
   font-size: .75em;
   font-family: Montserrat-semibold, Helvetica, Arial, sans-serif;
@@ -484,6 +484,10 @@ h1 + .intro {
   font-weight: normal;
   text-align: center;
   color: var(--clr-text);
+}
+
+@media all and (min-width: 38.25em) {
+  .btn {padding-top: .75rem;}
 }
 
 .btn:hover, .btn:focus {
@@ -1216,9 +1220,13 @@ span.location {
 	max-width: 48rem;
 	margin: 0 auto;
   padding-top: 3rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: .75rem;
   background-color: var(--clr-main-bkgd);
   border-radius: 10px;
+}
+
+@media all and (min-width: 38.25em) {
+  .main {padding-bottom: 1.5rem;}
 }
 
 
@@ -1445,4 +1453,3 @@ hr {height: 20px;}
 .plate svg {width: 220px; height: 220px;}
 .pagination-item svg {width: 50px; height: 50px;}
 }
-
