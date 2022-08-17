@@ -1331,8 +1331,8 @@ span.location {
 }
 
 @media all and (min-width: 58em) {
-  .plate-content {padding: 1.5rem 2.25em; /*.375em;*/}
-  .plate svg {margin: 1.5rem 1.5rem 0em 2.25em}
+  .plate-content {padding: 1.5rem 1.5em;}
+  .plate svg {margin: 1.5rem 1.5rem 0em 1.5em}
 }
 
 /* ----- 4.3 Info page supplemental typography ------------------------ */
