@@ -210,7 +210,6 @@ a:active,
 .toggle-button__text:focus,
 .toggle-button__text:active {
  color: var(--clr-lvha);
-  -webkit-transition: .25s;
   transition: .25s;
 }
 
@@ -367,7 +366,7 @@ h1 + .intro {
 }
 
 .text hr {
-  /* A muted style for <hr> within
+  /* Muted style for <hr> within
      main content. */
 }
 
@@ -778,22 +777,16 @@ h1 + .intro {
 
   .pagination-item.left {
     left: -200px;
-    -webkit-animation: slide-left 0.5s forwards;
-    -webkit-animation-delay: 2s;
     animation: slide-left 0.5s forwards;
     animation-delay: 0.3s;
     }
-  @-webkit-keyframes slide-left {100% { left: 0; }}
   @keyframes slide-left {100% { left: 0; }}
 
   .pagination-item.right {
     right: -200px;
-    -webkit-animation: slide-right 0.5s forwards;
-    -webkit-animation-delay: 2s;
     animation: slide-right 0.5s forwards;
     animation-delay: 0.3s;
     }
-  @-webkit-keyframes slide-right {100% { right: 0; }}
   @keyframes slide-right {100% { right: 0; }}
 }
 
@@ -880,7 +873,6 @@ h1 + .intro {
 .work-grid figcaption:hover, .tag-grid figcaption:hover {
   background: var(--clr-work-hvr-bkgd);
   color: var(--clr-work-fig-text-hvr);
-  -webkit-transition: .25s;
   transition: .25s;
 }
 
@@ -969,7 +961,6 @@ body {
   }
 
   * {
-    -webkit-animation: none !important;
     animation: none !important;
     transition: none !important;
   }
@@ -1281,13 +1272,8 @@ span.location {
   /* Using flexbox for module content ensures
      optional button always aligns equally
      to the bottom of module. */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .plate svg {margin: 1rem 1.5rem 0em 1em}
@@ -1313,10 +1299,8 @@ span.location {
 }
 
 .plate-content {
-  padding: 1rem 1em; /*.375em;*/
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  padding: 1rem 1em;
+  flex-grow: 1;
 }
 
 .plate-contact {
