@@ -7,7 +7,7 @@
 
 :root {
   --padding: 1.5rem;
-  --clr-site-bkgd: #fffff8;
+  --clr-site-bkgd: #fff;
   --clr-main-bkgd: #f6f4f2;
   --clr-dots: #e6e6e6;
   --dot-bkgd-pos: 8px;
@@ -15,9 +15,9 @@
   --clr-h2-span: #d7697c;
   --clr-underline: #d7697c;
   --clr-lvha: #d7697c;
-  --clr-logo: #444444;
+  --clr-logo: #444;
   --clr-logo-lvha: pink;
-  --clr-text: #444444;
+  --clr-text: #444;
   --clr-dcap-bkgd: #ffdde2;
   --clr-underline-lvha: pink;
   --clr-btn-label-hvr: #d7697c;

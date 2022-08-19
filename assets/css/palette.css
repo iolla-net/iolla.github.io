@@ -19,7 +19,7 @@
   --btn-icon: var(--icon-moon);
   --btn-icon-filter: var(--icon-moon-filter);
   --btn-bkgd: var(--clr-dark);
-  --btn-clr: #444444;
+  --btn-clr: #444;
   --border-clr: var(--clr-dark-alpha);
 }
 
@@ -30,8 +30,8 @@
 
   :root:not([data-user-color-scheme]) {
   --clr-site-bkgd: var(--clr-dark);
-  --clr-main-bkgd: black;
-  --clr-dots: #000000;
+  --clr-main-bkgd: #000;
+  --clr-dots: #000;
   --dot-bkgd-pos: 16px;
   --dot-bkgd-size: 32px;
   --clr-h2-span: #ae8fdb;
@@ -57,7 +57,7 @@
   --clr-pagination-bkgd-hover: #4c3a69;
   --clr-strip-1: #4c3a69;
   --clr-strip-2: var(--clr-dark);
-  --clr-plate-edge: #000000;
+  --clr-plate-edge: #000;
   --clr-plate-bkgd: #3a3753;
   --clr-plate-fact: #9a95c6;
   --btn-icon-filter: var(--icon-sun-filter);
@@ -72,8 +72,8 @@
 
 [data-user-color-scheme="dark"] {
   --clr-site-bkgd: var(--clr-dark);
-  --clr-main-bkgd: black;
-  --clr-dots: #000000;
+  --clr-main-bkgd: #000;
+  --clr-dots: #000;
   --dot-bkgd-pos: 16px;
   --dot-bkgd-size: 32px;
   --clr-h2-span: #ae8fdb;
@@ -99,7 +99,7 @@
   --clr-pagination-bkgd-hover: #4c3a69;
   --clr-strip-1: #4c3a69;
   --clr-strip-2: var(--clr-dark);
-  --clr-plate-edge: #000000;
+  --clr-plate-edge: #000;
   --clr-plate-bkgd: #3a3753;
   --clr-plate-fact: #9a95c6;
   --btn-icon-filter: var(--icon-sun-filter);
