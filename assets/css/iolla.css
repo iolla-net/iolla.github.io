@@ -36,7 +36,6 @@
   --clr-pagination-bkgd-hover: #d7697c;
   --clr-strip-1: pink;
   --clr-strip-2: var(--clr-site-bkgd);
-  --clr-plate-edge: #eae9e9;
   --clr-plate-bkgd: #fae0e4;
   --clr-plate-fact: #845c5c;
   --clr-blockquote-bkgd: #ffeaee;
@@ -1274,7 +1273,6 @@ span.location {
 .plate {
   background: var(--clr-plate-bkgd);
   background-clip: content-box;
-  border: 1px solid var(--clr-plate-edge);
   text-align: left;
   font-size: .85rem;
   /* Using flexbox for module content ensures
