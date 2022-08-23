@@ -204,10 +204,7 @@ a {
 
 a:hover,
 a:focus,
-a:active,
-.toggle-button__text:hover,
-.toggle-button__text:focus,
-.toggle-button__text:active {
+a:active {
  color: var(--clr-lvha);
   transition: .25s;
 }
@@ -1034,7 +1031,7 @@ body {
  background-size: 0px 100%;
 }
 
-.menu-item, .palette a {border-bottom: 0;}
+.menu-item {border-bottom: 0;}
 
 .menu a[aria-current] {
   text-decoration: underline;
@@ -1043,8 +1040,7 @@ body {
 
 .menu-item:hover,
 .footer-menu a:hover,
-.footer-privacy a:hover,
-.toggle-button__text:hover {
+.footer-privacy a:hover {
   border-bottom: 0;
 	display: inline;
   	background:
@@ -1076,8 +1072,7 @@ body {
   .menu-item.is-active,
   .footer-menu a:hover,
   .footer-privacy.is-active a,
-  .footer-privacy a:hover,
-  .toggle-button__text:hover {
+  .footer-privacy a:hover {
 	  background-position: 0 23px;
 }
 
@@ -1381,8 +1376,7 @@ html {
 .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
-.footer-privacy a:hover,
-.toggle-button__text:hover {
+.footer-privacy a:hover {
 	background-position: 0 38px;
 	}
 
@@ -1439,8 +1433,7 @@ hr {height: 20px;}
 .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
-.footer-privacy a:hover,
-.toggle-button__text:hover {
+.footer-privacy a:hover {
 	background-position: 0 46px;
 	}
 

@@ -140,8 +140,6 @@
   background-repeat: no-repeat;
 }
 
-.toggle-button:focus {}
-
 /* Presentational styles */
 .visually-hidden {
   display: block;
