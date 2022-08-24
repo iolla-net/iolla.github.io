@@ -70,7 +70,6 @@ const toggleSetting = () => {
  * A shared method for setting the button text label and visually hidden status element
  */
 const setButtonLabelAndStatus = currentSetting => {
-  modeToggleText.innerText = `${currentSetting === 'dark' ? 'light' : 'dark'}`;
   modeStatusElement.innerText = `Color mode is now "${currentSetting}"`;
 }
 
