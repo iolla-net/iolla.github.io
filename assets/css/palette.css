@@ -114,10 +114,6 @@
   display: none;
 }
 
-.user-toggle {
-  text-align: center;
-}
-
 .toggle-button {
   display: inline-flex;
   background: var(--btn-bkgd);
