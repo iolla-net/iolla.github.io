@@ -157,11 +157,6 @@ p.dropcap:not(:focus):first-letter {
   p.dropcap:not(:focus):first-letter {font-size: 5em;}
 }
 
-.plus {
-  font-weight: bold;
-  color: var(--clr-icon);
-}
-
 .sub-heading {
   text-align: center;
   padding-top: 1.5rem;
