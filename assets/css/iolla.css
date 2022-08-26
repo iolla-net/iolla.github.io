@@ -15,8 +15,7 @@
   --clr-h2-span: #d7697c;
   --clr-underline: #d7697c;
   --clr-lvha: #d7697c;
-  --clr-logo: #444;
-  --clr-logo-lvha: pink;
+  --clr-logo: #d7697c;
   --clr-text: #444;
   --clr-text-hvr: #fff;
   --clr-dcap-bkgd: #ffb6c2;
@@ -997,8 +996,8 @@ body {
     display: inline;
   	background:
     linear-gradient(
-    to bottom, var(--clr-logo-lvha) 0%,
-    var(--clr-logo-lvha) 100%);
+    to bottom, var(--clr-underline-lvha) 0%,
+    var(--clr-underline-lvha) 100%);
 	background-position: 0 29px;
 	background-repeat: repeat-x;
 }
