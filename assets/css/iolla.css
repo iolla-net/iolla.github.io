@@ -18,8 +18,9 @@
   --clr-logo: #444;
   --clr-logo-lvha: pink;
   --clr-text: #444;
-  --clr-dcap-bkgd: #ffdde2;
-  --clr-underline-lvha: pink;
+  --clr-text-hvr: #fff;
+  --clr-dcap-bkgd: #ffb6c2;
+  --clr-underline-lvha: #ff8197;
   --clr-btn-label-hvr: #d7697c;
   --clr-work-hvr-bkgd: rgba(255, 111, 135, 0.70);
   --work-static-opacity: rgba(0,0,0, .2);
@@ -29,14 +30,14 @@
   --clr-text-hr: #d7697c;
   --clr-hr: pink;
   --clr-icon: #d7697c;
-  --clr-picto: #d7697c;
+  --clr-picto: #c8465c;
   --clr-pagination-label: #d7697c;
   --clr-pagination-label-hver: var(--clr-light);
   --clr-pagination-bkgd: #efeeed;
   --clr-pagination-bkgd-hover: #d7697c;
   --clr-strip-1: pink;
   --clr-strip-2: var(--clr-site-bkgd);
-  --clr-plate-bkgd: #fae0e4;
+  --clr-plate-bkgd: #ffb6c2;
   --clr-plate-fact: #845c5c;
   --clr-blockquote-bkgd: #ffeaee;
   --clr-img-edge: pink;
@@ -219,7 +220,7 @@ a:active {
 
 .text a:hover {
   	background-size: 4px 100%;
-  	color: #111;
+  	color: var(--clr-text-hvr);
 	}
 
 /* Misc */

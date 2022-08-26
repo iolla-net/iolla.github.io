@@ -42,6 +42,7 @@
   --clr-logo: #a185d6;
   --clr-logo-lvha: #ae8fdb;
   --clr-text: var(--clr-light);
+  --clr-text-hvr: #111;
   --clr-dcap-bkgd: #2e2142;
   --clr-underline-lvha: #ae8fdb;
   --work-static-opacity: rgba(0,0,0, .4);
@@ -83,6 +84,7 @@
   --clr-logo: #a185d6;
   --clr-logo-lvha: #ae8fdb;
   --clr-text: var(--clr-light);
+  --clr-text-hvr: #111;
   --clr-dcap-bkgd: #2e2142;
   --clr-underline-lvha: #ae8fdb;
   --work-static-opacity: rgba(0,0,0, .4);
