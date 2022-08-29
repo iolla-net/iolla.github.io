@@ -22,7 +22,7 @@
   --btn-clr: #444;
   --border-clr: var(--clr-dark-alpha);
 
-  --icon-moon-filter: invert(56%) sepia(36%) saturate(498%) hue-rotate(219deg) brightness(95%) contrast(94%);
+  --icon-moon-filter: invert(30%) sepia(29%) saturate(1692%) hue-rotate(227deg) brightness(96%) contrast(93%);
 }
 
 @media (prefers-color-scheme: dark) {
