@@ -157,29 +157,23 @@ p.dropcap:not(:focus):first-letter {
   p.dropcap:not(:focus):first-letter {font-size: 5em;}
 }
 
-.sub-heading {
-  text-align: center;
-  padding-top: 1.5rem;
-}
-
 /* Headings */
 h1, h2, h3 {
   font-family: 'Montserrat-semibold', serif;
   font-weight: 600;
+  text-align: left;
 }
 
 h1 {
   font-weight: 600;
   font-size: 1.75rem;
   line-height: 1.25;
-  text-align: left;
   margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 1.75rem;
-  line-height: 2.2rem;
-  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
 }
 
 h3 {
@@ -189,6 +183,11 @@ h3 {
 
 h4 {
   font-size: 1em;
+}
+
+.sub-heading {
+  text-align: center;
+  padding-top: 1.5rem;
 }
 
 /* Links */
@@ -1289,7 +1288,6 @@ span.location {
 .plate div > svg {display: block; margin: 0 auto; width: 94%;}
 
 .plate-title {
-    font-size: 1.25em;
     margin-bottom: 1.5em;
 }
 
