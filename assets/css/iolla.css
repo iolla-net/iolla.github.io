@@ -1035,6 +1035,8 @@ body {
   text-decoration-color: var(--clr-underline-lvha);
 }
 
+.footer-menu ul {margin: 0;}
+
 .menu-item:hover,
 .footer-menu a:hover,
 .footer-privacy a:hover {
