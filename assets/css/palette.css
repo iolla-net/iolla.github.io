@@ -42,7 +42,7 @@
   --clr-logo: #a185d6;
   --clr-text: var(--clr-light);
   --clr-text-hvr: #111;
-  --clr-dcap-bkgd: #2e2142;
+  --clr-dcap-bkgd: #333;
   --clr-underline-lvha: #ae8fdb;
   --work-static-opacity: rgba(0,0,0, .4);
   --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
@@ -83,7 +83,7 @@
   --clr-logo: #a185d6;
   --clr-text: var(--clr-light);
   --clr-text-hvr: #111;
-  --clr-dcap-bkgd: #2e2142;
+  --clr-dcap-bkgd: #333;
   --clr-underline-lvha: #ae8fdb;
   --work-static-opacity: rgba(0,0,0, .4);
   --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
