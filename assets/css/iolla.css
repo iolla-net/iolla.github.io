@@ -229,7 +229,7 @@ a:active {
   text-decoration-style: wavy;
 }
 
-.colophon .iolla {text-decoration: underline;}
+.colophon .iolla {border-bottom: 2px solid}
 
 .hear-iolla .say-iolla, .colophon .read-iolla {
   visibility: hidden;
@@ -276,10 +276,11 @@ h1 + hr,
 
 i, em {
   font-weight: 100;
-  font-style: italic;
+  font-style: normal;
+  color: var(--clr-underline);
 }
 
-u {text-decoration-color: var(--clr-underline)}
+u {}
 
 b, strong {
   font-weight: 700;
