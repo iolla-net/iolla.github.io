@@ -229,6 +229,8 @@ a:active {
   text-decoration-style: wavy;
 }
 
+.colophon .iolla {border-bottom: 2px solid;}
+
 .hear-iolla .say-iolla, .colophon .read-iolla {
   visibility: hidden;
   background-color: var(--clr-plate-bkgd);
