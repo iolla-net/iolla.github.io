@@ -2,7 +2,7 @@
 
 /*
   # iOlla website design Scotland + Kirby Starterkit Fusion™
-  # CSS property (var) definitions
+  # CSS property (var) defs
 */
 
 :root {
@@ -46,8 +46,8 @@
 /*
   ## TOC
 
-  1 Global Rules & Definitions
-  1.1 Font Definitions
+  1 Global Rules & Defs
+  1.1 Font Defs
   1.2 Reset & Normalisation
   1.3 General Typography
   1.4 Images & Figures
@@ -73,9 +73,9 @@
   5 Support props for hdpi/wide screen
 */
 
-/* ===== 1 Global Rules & Definitions ===================================== */
+/* ===== 1 Global Rules & Defs ===================================== */
 
-/* ----- 1.1 Font Definitions --------------------------------------------- */
+/* ----- 1.1 Font Defs --------------------------------------------- */
 
 @font-face {
   font-family: 'Montserrat-light-i';
@@ -677,6 +677,7 @@ h1 + .intro {
 /* ----- 2.4 Pagination --------------------------------------------------- */
 
 .pagination {
+  margin-top: 2.5rem;
   margin-bottom: 1.5rem;
   display: flex;
   justify-content: space-between;
