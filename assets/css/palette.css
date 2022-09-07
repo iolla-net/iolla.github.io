@@ -29,83 +29,57 @@
   }
 
   :root:not([data-user-color-scheme]) {
+  --btn-icon-filter: var(--icon-sun-filter);
+  --btn-bkgd: var(--clr-light-alpha);
+  --btn-clr: var(--clr-light);
+  --border-clr: var(--clr-light-alpha);
+  --btn-icon: var(--icon-sun);
   --clr-site-bkgd: var(--clr-dark);
   --clr-main-bkgd: #000;
   --clr-dots: #000;
   --dot-bkgd-pos: 16px;
   --dot-bkgd-size: 32px;
-  --clr-h2-span: #ae8fdb;
-  --clr-underline: #ae8fdb;
-  --btn-icon: var(--icon-sun);
-  --clr-btn-label-hvr: #a185d6;
-  --clr-lvha: #d8c5fd;
-  --clr-logo: #a185d6;
+  --clr-primary: #a185d6;
+  --clr-secondary: #3a3753;
+  --clr-tertiary: #000;
   --clr-text: var(--clr-light);
-  --clr-text-hvr: #111;
-  --clr-dcap-bkgd: #2e2142;
-  --clr-underline-lvha: #ae8fdb;
   --work-static-opacity: rgba(0,0,0, .4);
   --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-light);
-  --clr-text-hr: #4c3a69;
-  --clr-hr: #ae8fdb;
-  --clr-icon: #a185d6;
+  --clr-tactile: rgba(211, 113, 239, 0.5);
   --clr-picto: #15103c;
-  --clr-pagination-label: #d8c5fd;
-  --clr-pagination-bkgd: #323232;
-  --clr-pagination-bkgd-hover: #4c3a69;
-  --clr-strip-1: #4c3a69;
-  --clr-strip-2: var(--clr-dark);
-  --clr-plate-bkgd: #3a3753;
+  --clr-pagination-bkgd: #000;
+  --clr-stripe: #29272a;
   --clr-plate-fact: #bab3ff;
-  --btn-icon-filter: var(--icon-sun-filter);
-  --btn-bkgd: var(--clr-light-alpha);
-  --btn-clr: var(--clr-light);
-  --border-clr: var(--clr-light-alpha);
-  --clr-blockquote-bkgd: #3a3753;
-  --clr-img-edge: #d6c3fb;
   --filter-img-brightness: brightness(.8);
   }
 }
 
 [data-user-color-scheme="dark"] {
+  --btn-icon-filter: var(--icon-sun-filter);
+  --btn-bkgd: var(--clr-light-alpha);
+  --btn-clr: var(--clr-light);
+  --border-clr: var(--clr-light-alpha);
+  --btn-icon: var(--icon-sun);
   --clr-site-bkgd: var(--clr-dark);
   --clr-main-bkgd: #000;
   --clr-dots: #000;
   --dot-bkgd-pos: 16px;
   --dot-bkgd-size: 32px;
-  --clr-h2-span: #ae8fdb;
-  --clr-underline: #ae8fdb;
-  --btn-icon: var(--icon-sun);
-  --clr-btn-label-hvr: #a185d6;
-  --clr-lvha: #d8c5fd;
-  --clr-logo: #a185d6;
+  --clr-primary: #a185d6;
+  --clr-secondary: #3a3753;
+  --clr-tertiary: #000;
   --clr-text: var(--clr-light);
-  --clr-text-hvr: #111;
-  --clr-dcap-bkgd: #2e2142;
-  --clr-underline-lvha: #ae8fdb;
   --work-static-opacity: rgba(0,0,0, .4);
   --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-light);
-  --clr-text-hr: #4c3a69;
-  --clr-hr: #ae8fdb;
-  --clr-icon: #a185d6;
+  --clr-tactile: rgba(211, 113, 239, 0.5);
   --clr-picto: #15103c;
-  --clr-pagination-label: #d8c5fd;
-  --clr-pagination-bkgd: #323232;
-  --clr-pagination-bkgd-hover: #4c3a69;
-  --clr-strip-1: #4c3a69;
-  --clr-strip-2: var(--clr-dark);
-  --clr-plate-bkgd: #3a3753;
+  --clr-pagination-bkgd: #000;
+  --clr-stripe: #29272a;
   --clr-plate-fact: #bab3ff;
-  --btn-icon-filter: var(--icon-sun-filter);
-  --btn-bkgd: var(--clr-light-alpha);
-  --btn-clr: var(--clr-light);
-  --border-clr: var(--clr-light-alpha);
-  --clr-blockquote-bkgd: #3a3753;
-  --clr-img-edge: #d6c3fb;
   --filter-img-brightness: brightness(.8);
 }
 
