@@ -47,6 +47,7 @@
   --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-light);
+  --clr-figcaption: #888;
   --clr-tactile: rgba(211, 113, 239, 0.5);
   --clr-picto: #15103c;
   --clr-pagination-bkgd: #000;
@@ -75,6 +76,7 @@
   --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-light);
+  --clr-figcaption: #888;
   --clr-tactile: rgba(211, 113, 239, 0.5);
   --clr-picto: #15103c;
   --clr-pagination-bkgd: #000;

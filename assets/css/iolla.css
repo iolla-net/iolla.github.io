@@ -20,6 +20,7 @@
   --work-static-opacity: rgba(0,0,0, .2);
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-dark);
+  --clr-figcaption: #4d4b4b;
   --clr-tactile: rgba(239, 113, 113, 0.5);
   --clr-picto: #c8465c;
   --clr-pagination-bkgd: #f6f4f2;
@@ -295,7 +296,7 @@ img {
 figcaption {
   font-size: 0.6rem;
   line-height: 1.5rem;
-  color: #888;
+  color: var(--clr-figcaption);
 }
 
 /* ===== 2 Layout Helpers & Reusable Components =========================== */
