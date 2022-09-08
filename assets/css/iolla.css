@@ -287,7 +287,7 @@ img {
 
 .focal figure img {
   border: 2px solid var(--clr-secondary);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .focal > figure:last-of-type img {
@@ -412,7 +412,7 @@ h1 + .intro {
   background-repeat: no-repeat, no-repeat;
   background-size: 15%, 25%, auto;
   text-align: left;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .project-meta {
@@ -494,7 +494,7 @@ h1 + .intro {
 
 .grid > .column {
   margin-bottom: var(--gutter);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .autogrid {
@@ -787,7 +787,7 @@ h1 + .intro {
   --rows: 1;
   overflow: hidden;
   background: #000;
-  border-radius: 10px;
+  border-radius: 5px;
  -webkit-mask-image: -webkit-radial-gradient(white, black);
   line-height: 0;
 }
@@ -1363,7 +1363,7 @@ html {
 
 p.dropcap:not(:focus):first-letter {
 	padding: 20px 10px 20px 10px;
-	border-radius: 10px;
+	border-radius: 5px;
 	}
 
 hr {height: 20px;}
