@@ -1194,7 +1194,7 @@ span.location {
   padding-top: 3rem;
   padding-bottom: .75rem;
   background-color: var(--clr-main-bkgd);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 @media all and (min-width: 38.25em) {
