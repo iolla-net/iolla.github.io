@@ -1006,8 +1006,6 @@ body {
  background-size: 0px 100%;
 }
 
-.menu-item {border-bottom: 0;}
-
 .menu a[aria-current] {
   text-decoration: underline;
   text-decoration-color: var(--clr-primary);
@@ -1018,13 +1016,12 @@ body {
 .menu-item:hover,
 .footer-menu a:hover,
 .footer-privacy a:hover {
-  border-bottom: 0;
 	display: inline;
   	background:
     linear-gradient(
     to bottom, var(--clr-primary) 0%,
     var(--clr-primary) 100%);
-	background-position: 0 19px;
+	background-position: 0 20px;
 	background-repeat: repeat-x;
   text-decoration: none;
   transition: .25s;
@@ -1035,14 +1032,14 @@ body {
     linear-gradient(
     to bottom, var(--clr-primary) 0%,
     var(--clr-primary) 100%);
-	background-position: 0 19px;
+	background-position: 0 20px;
 	background-repeat: repeat-x;
 }
 
 .footer .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
-.footer-privacy a:hover {background-position: 0 17px;}
+.footer-privacy a:hover {background-position: 0 18px;}
 
 @media all and (min-width: 30em) {
   .menu-item:hover,
@@ -1050,13 +1047,13 @@ body {
   .footer-menu a:hover,
   .footer-privacy.is-active a,
   .footer-privacy a:hover {
-	  background-position: 0 23px;
+	  background-position: 0 24px;
 }
 
   .footer .menu-item.is-active,
   .footer-menu a:hover,
   .footer-privacy.is-active a,
-  .footer-privacy a:hover {background-position: 0 21px;}
+  .footer-privacy a:hover {background-position: 0 22px;}
 }
 
 /* ----- 3.3 Footer ------------------------------------------------ */
