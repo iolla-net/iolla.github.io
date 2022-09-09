@@ -1039,7 +1039,7 @@ body {
 .footer .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
-.footer-privacy a:hover {background-position: 0 18px;}
+.footer-privacy a:hover {background-position: 0 19px;}
 
 @media all and (min-width: 30em) {
   .menu-item:hover,
