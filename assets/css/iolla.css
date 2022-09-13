@@ -1253,15 +1253,18 @@ span.location {
 
 .plate svg {margin: 1rem 1.5rem 0em 1em}
 
-/*- 404 SVG -*/
+/*- HAL SVG -*/
 .plate div > svg {
     display: block;
     margin: 0 auto;
     width: 94%;
     height: 100%;
+    padding-bottom: 3%;
 }
 
-.plate div > svg {display: block; margin: 0 auto; width: 94%;}
+@media all and (min-width: 44em) {
+  .plate div > svg {padding-bottom: 0;}
+}
 
 .plate-title {
     margin-bottom: 1.5em;
