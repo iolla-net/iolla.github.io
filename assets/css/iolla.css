@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*
-  # ©iOlla website design Scotland + Kirby Starterkit Fusion™
+  # ©iOlla website design Scotland & Kirby Starterkit Fusion™
   # CSS property var defs
 */
 
@@ -30,7 +30,7 @@
 }
 
 /*
-  ## TOC
+  index
 
   1 Global Rules & Defs
   1.1 Font Defs
@@ -40,14 +40,14 @@
 
   2 Layout Helpers & Reusable Components
   2.1 Kirbytext
-  2.2 Buttons
+  2.2 Buttons & Animations
   2.3 Grids & Layout
   2.4 Pagination
-  2.5 Work & tag grid
+  2.5 Work & Tag Grid
 
   3 Site Layout
-  3.1 Header & logo
-  3.2 Menu
+  3.1 Header & Logo
+  3.2 Menu & Navigation
   3.3 Footer
   3.4 Main Content
 
@@ -55,7 +55,7 @@
   4.1 Blog Article
   4.2 Plates (core grid content containers)
 
-  5 Support props for hdpi/wide screen
+  5 Hdpi + widescreen support
 */
 
 /* ===== 1 Global Rules & Defs ===================================== */
@@ -429,15 +429,11 @@ h1 + .intro {
 	color: var(--clr-primary);
 }
 
-@media all and (min-width: 55em) {
-  .text blockquote {}
-}
-
 .text blockquote :last-child {
   margin-bottom: 0;
 }
 
-/* ----- 2.2 Buttons ------------------------------------------------------- */
+/* ----- 2.2 Buttons & Animations ------------------------------------------------------- */
 
 .btn {
   display: block;
@@ -472,19 +468,18 @@ h1 + .intro {
 	font-size: 1.2em;
 }
 
-@keyframes scroll {
+@keyframes indicate {
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
     40% {transform: translateY(-10px);}
     60% {transform: translateY(-5px);}
 }
 
-.scroll {
+.indicate {
+  animation: indicate 4s 2s infinite;
 	display: block;
 	margin: 0 auto;
-    animation: scroll 4s 2s infinite;
-    text-align: center;
-    width: 40px;
-    fill: var(--clr-primary);
+  text-align: center;
+  width: 1.75rem;
 }
 
 @keyframes glint {
@@ -582,6 +577,7 @@ h1 + .intro {
 .facet li:nth-child(4) {
   grid-template-columns: 3fr 2fr;
 }
+
 /* ----- Grid (facet) median ------------------------ */
 @media screen and (min-width: 44em) {
   .facet .plate-content {
@@ -607,6 +603,7 @@ h1 + .intro {
     grid-template-columns: 5fr 3fr;
   }
 }
+
 /* ----- Grid (facet) expansive ---------------------- */
 @media screen and (min-width: 66em) {
   .facet li:first-child {
@@ -785,7 +782,7 @@ h1 + .intro {
   }
 }
 
-/* ----- 2.5 Work & tag grid ---------------------------------------------- */
+/* ----- 2.5 Work & Tag Grid ---------------------------------------------- */
 
 .work-grid, .tag-grid {
   display: grid;
@@ -955,7 +952,7 @@ body {
   }
 }
 
-/* ----- 3.1 Header & logo ------------------------------------------------------- */
+/* ----- 3.1 Header & Logo ------------------------------------------------------- */
 
 .header {
   display: flex;
@@ -1002,7 +999,7 @@ body {
   }
 }
 
-/* ----- 3.2 Menu --------------------------------------------------------- */
+/* ----- 3.2 Menu & Navigation --------------------------------------------------------- */
 
 .menu {
   display: flex;
@@ -1100,7 +1097,7 @@ body {
 }
 
 .footer .heart {
-  /* Arial Unicode MS heart character for symmetry */
+  /* Arial Unicode MS heart for symmetry */
   font-family: "Arial Unicode MS", Arial, sans-serif;
   display: inline-block;
   line-height: 1.0rem;
@@ -1311,7 +1308,7 @@ span.location {
   .plate svg {margin: 1.5rem 1.5rem 0em 1.5em}
 }
 
-/* ----- 5 Support props for hdpi/wide screen --------------------------------------------- */
+/* ----- 5 Hdpi + widescreen support --------------------------------------------- */
 
 @media all and (min-width: 100em) {
   .wrap:not(.wide) {
