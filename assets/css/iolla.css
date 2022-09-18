@@ -543,7 +543,7 @@ h1 + .intro {
 @media screen and (min-width: 44em) {
   .surface li:first-child {grid-column: span 8;}
   .surface li:first-child .plate-title {font-size: 2rem; margin-bottom: 0.75em}
-  .surface li:first-child .plate-text {font-size: 1.2rem;}
+  .surface li:first-child .plate-text {font-size: 1.2rem; line-height: 1.7rem}
 }
 
 @media screen and (min-width: 66em) {
