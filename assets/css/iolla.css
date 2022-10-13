@@ -488,7 +488,12 @@ h1 + .intro {
   100% {opacity: 1;}
 }
 
-.close {animation: glint 1s infinite;}
+.close {
+  font-size: 2em;
+  display: inline-flex;
+  vertical-align: text-top;
+  animation: glint 1s infinite;
+}
 
 /* ----- 2.3 Grids & Layout -------------------------------------- */
 
