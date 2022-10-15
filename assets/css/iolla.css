@@ -23,7 +23,6 @@
   --clr-figcaption: #4d4b4b;
   --clr-tactile: rgba(239, 113, 113, 0.5);
   --clr-picto: #c8465c;
-  --clr-pagination-bkgd: #f6f4f2;
   --clr-stripe: #fff;
   --clr-plate-fact: #6c1919;
   --filter-img-brightness: brightness(inherit);
@@ -682,7 +681,7 @@ h1 + .intro {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background: var(--clr-pagination-bkgd);
+  background: var(--clr-main-bkgd);
   color: var(--clr-primary);
   border: 2px solid var(--clr-primary);
 }
