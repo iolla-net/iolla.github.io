@@ -751,7 +751,7 @@ h1 + .intro {
     font-weight: normal;
     writing-mode: tb-rl;
     text-align: center;
-    color: var(--clr-primary);
+    color: var(--clr-text);
   }
 
   .pagination-label-text {
