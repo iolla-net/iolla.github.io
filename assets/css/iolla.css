@@ -487,9 +487,11 @@ h1 + .intro {
   100% {opacity: 1;}
 }
 
+.tag {display: inline-block;}
+
 .close {
   font-size: 2em;
-  display: inline-flex;
+  display: inline-block;
   vertical-align: text-top;
   animation: glint 1s infinite;
 }
