@@ -323,7 +323,8 @@ h1 + .intro {
   margin-top: 0rem;
 }
 
-.text h2, .text h3 {
+.text h2:not(.sub-heading),
+.text h3:not(.sub-heading) {
   margin-top: 3rem;
 }
 
@@ -448,10 +449,6 @@ h1 + .intro {
   color: var(--clr-text);
 }
 
-@media all and (min-width: 38.25em) {
-  .btn {padding-top: .75rem;}
-}
-
 .btn:hover, .btn:focus {
   color: var(--clr-primary);
 	background-image: none;
@@ -504,7 +501,7 @@ h1 + .intro {
 
 .grid {
   --columns: 12;
-  --gutter: .5rem .5rem;
+  --gutter: .75rem .75rem;
   display: grid;
   grid-gap: var(--gutter);
   grid-template-columns: 1fr;
@@ -516,7 +513,7 @@ h1 + .intro {
 }
 
 .autogrid {
-  --gutter: .5rem;
+  --gutter: .75rem;
   --min: 15rem;
   display: grid;
   grid-gap: var(--gutter);
@@ -665,8 +662,8 @@ h1 + .intro {
     padding-right: 3rem;
   }
   .wrap.wide {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
   }
 }
 
@@ -796,7 +793,7 @@ h1 + .intro {
 .work-grid, .tag-grid {
   display: grid;
   list-style: none;
-  grid-gap: 0.5rem;
+  grid-gap: .75rem;
   line-height: 0;
   grid-template-columns: repeat(1, 1fr);
   grid-auto-flow: dense;
@@ -1215,7 +1212,7 @@ span.location {
 }
 
 @media all and (min-width: 38.25em) {
-  .main {padding-bottom: 1.5rem;}
+  .main {padding-bottom: .9rem;}
 }
 
 
