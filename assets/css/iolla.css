@@ -497,7 +497,7 @@ h1 + .intro {
 
 .work-grid, .tag-grid, .facet.grid:not(.error) {margin: 0;}
 
-.error.main {padding-top: .9rem;}
+.error.main {padding-top: .8rem;}
 
 .grid {
   --columns: 12;
@@ -1212,7 +1212,7 @@ span.location {
 }
 
 @media all and (min-width: 38.25em) {
-  .main {padding-bottom: .9rem;}
+  .main {padding-bottom: .8rem;}
 }
 
 
