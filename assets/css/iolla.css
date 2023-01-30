@@ -24,7 +24,7 @@
   --clr-tactile: rgba(239, 113, 113, 0.5);
   --clr-picto: #c8465c;
   --clr-stripe: #fff;
-  --clr-plate-fact: #6c1919;
+  --clr-fact: #6c1919;
   --filter-img-brightness: brightness(inherit);
 }
 
@@ -254,7 +254,9 @@ h1 + hr,
   margin-top: -1.5rem;
 }
 
-i, em {
+i {}
+
+em {
   font-weight: 100;
   font-style: normal;
   color: var(--clr-primary);
@@ -1306,7 +1308,7 @@ span.location {
 }
 
 .plate-fact {
-    color: var(--clr-plate-fact);
+    color: var(--clr-fact);
     font-size: 0.7em;
 }
 
