@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /*
-  # ©iOlla website design Scotland & Kirby Starterkit Fusion™
-  # CSS property var defs
+  # ©John Coyne/iolla website design & Kirby Starterkit Fusion™
+  # CSS prop var defs
 */
 
 :root {
@@ -30,30 +30,25 @@
 
 /*
   index
-
   1 Global Rules & Defs
   1.1 Font Defs
   1.2 Reset & Normalisation
   1.3 General Typography
   1.4 Images & Figures
-
   2 Layout Helpers & Reusable Components
   2.1 Kirbytext
   2.2 Buttons & Animations
   2.3 Grids & Layout
-  2.4 Pagination
-  2.5 Work & Tag Grid
-
+  2.4 Work & Tag Grid
+  2.5 Pagination
   3 Site Layout
   3.1 Header & Logo
   3.2 Menu & Navigation
   3.3 Footer
   3.4 Main Content
-
   4 Template-specific Components
   4.1 Blog Article
   4.2 Plates (core grid content containers)
-
   5 Hdpi + widescreen support
 */
 
@@ -225,7 +220,7 @@ a:active {
   width: 120px;
   bottom: 100%;
   left: 50%;
-  margin-left: -60px; /* 1/2 the width (120/2=60) centers tooltip */
+  margin-left: -60px; /* 1/2 width (120/2=60) centers tooltip */
 }
 
 .colophon .read-iolla {margin-left: -50px;}
@@ -244,14 +239,12 @@ a:active {
   }
 }
 
-hr {
-	margin: 30px 0;
-}
+hr {}
 
 h1 + hr,
 .intro + hr {
-  /* Shift a <hr> right after an .intro
-     or <h1> block one line up. */
+  /* Shift <hr> after an .intro
+     or <h1> block up one line. */
   margin-top: -1.5rem;
 }
 
@@ -304,7 +297,7 @@ figcaption {
 
 /* ===== 2 Layout Helpers & Reusable Components ================== */
 
-/* Clearfix™ */
+/* Clearfix */
 .cf::after {
   content: "";
   display: block;
@@ -383,8 +376,8 @@ h1 + .intro {
 
 @supports (-webkit-overflow-scrolling: touch) {
   .text pre > code {
-    /* Enables smoother scrolling for code
-       sections on touch devices. */
+    /* Enables smoother code sections
+       scrolling on touch devices. */
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
   }
@@ -498,10 +491,6 @@ h1 + .intro {
 
 /* ----- 2.3 Grids & Layout -------------------------------------- */
 
-.work-grid, .tag-grid, .facet.grid:not(.error) {margin: 0;}
-
-.error.main {padding-top: .8rem;}
-
 .grid {
   --columns: 12;
   --gutter: .75rem .75rem;
@@ -537,16 +526,14 @@ h1 + .intro {
 }
 
 @media screen and (min-width: 66em) {
-  body {
-    --padding: 3rem;
-  }
   .grid {
     grid-template-columns: repeat(12, 1fr);
   }
-  .grid > .column {
-    grid-column: span var(--columns);
-  }
 }
+
+.work-grid, .tag-grid, .facet.grid:not(.error) {margin: 0;}
+
+.error.main {padding-top: .8rem;}
 
 /* ----- Grid (services) big surface area -------------- */
 @media screen and (min-width: 44em) {
@@ -640,6 +627,131 @@ h1 + .intro {
   }
 }
 
+/* ----- 2.4 Work & Tag Grid ------------------------------------- */
+
+.work-grid, .tag-grid {
+  display: grid;
+  list-style: none;
+  grid-gap: .75rem;
+  line-height: 0;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-flow: dense;
+}
+.work-grid li, .tag-grid li {
+  position: relative;
+  --cols: 1;
+  --rows: 1;
+  overflow: hidden;
+  background: #000;
+  border-radius: 5px;
+ -webkit-mask-image: -webkit-radial-gradient(white, black);
+  line-height: 0;
+}
+.work-grid li:first-child {
+  --cols: 2;
+  --rows: 2;
+}
+.work-grid li:nth-child(5) {
+  --cols: 2;
+}
+.work-grid li:nth-child(6) {
+  --rows: 2;
+}
+.work-grid li:nth-child(7) {
+  --cols: 2;
+}
+.work-grid a, .tag-grid a {
+  display: block;
+  height: 10rem;
+  border-bottom: 0;
+}
+.work-grid img, .tag-grid img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all .3s;
+  filter: brightness(100%);
+  border: none;
+  transform: scale(1);
+}
+
+.work-grid a:hover img, .tag-grid a:hover img {
+	transform: scale(1.05);
+}
+
+.work-grid figcaption, .tag-grid figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: var(--clr-work-fig-text);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1;
+  text-align: center;
+  background: var(--work-static-opacity);
+}
+
+.work-grid figcaption:hover, .tag-grid figcaption:hover {
+  background: var(--clr-work-hvr-bkgd);
+  color: var(--clr-work-fig-text-hvr);
+  transition: .25s;
+}
+
+@media screen and (min-width: 40em) {
+  .land {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .land li {
+    grid-column-start: span var(--cols);
+    grid-row-start: span var(--rows);
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .work-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .work-grid li {
+    grid-column-start: span var(--cols);
+    grid-row-start: span var(--rows);
+  }
+  .work-grid a {
+    padding-bottom: 52.65%;
+  }
+}
+
+.work-grid-link:hover .work-grid-caption,
+.work-grid-link:focus .work-grid-caption {
+  opacity: 1;
+}
+
+@media (any-hover: none) {
+  .work-grid-caption {
+    /* The media query enclosing these rules matches only
+       touch-screen devices that do not support hover due
+       to lack of pointing device. It does not work in all
+       mobile browsers, but progressively enhances the
+       experience on supported devices. */
+    opacity: 0.65;
+    /* Reset will-change property prevents it consuming
+       unneccessary resources on touch-only devices */
+    will-change: auto;
+  }
+  .work-grid-title {
+    font-size: .85em;
+  }
+}
+
 .wrap {
   box-sizing: content-box;
   margin: 0 auto;
@@ -670,7 +782,7 @@ h1 + .intro {
   }
 }
 
-/* ----- 2.4 Pagination ------------------------------------------ */
+/* ----- 2.5 Pagination ------------------------------------------ */
 
 .pagination {
   margin-top: 2.5rem;
@@ -791,121 +903,6 @@ h1 + .intro {
   }
 }
 
-/* ----- 2.5 Work & Tag Grid ------------------------------------- */
-
-.work-grid, .tag-grid {
-  display: grid;
-  list-style: none;
-  grid-gap: .75rem;
-  line-height: 0;
-  grid-template-columns: repeat(1, 1fr);
-  grid-auto-flow: dense;
-}
-.work-grid li, .tag-grid li {
-  position: relative;
-  --cols: 1;
-  --rows: 1;
-  overflow: hidden;
-  background: #000;
-  border-radius: 5px;
- -webkit-mask-image: -webkit-radial-gradient(white, black);
-  line-height: 0;
-}
-.work-grid li:first-child {
-  --cols: 2;
-  --rows: 2;
-}
-.work-grid li:nth-child(5) {
-  --cols: 2;
-}
-.work-grid li:nth-child(6) {
-  --rows: 2;
-}
-.work-grid li:nth-child(7) {
-  --cols: 2;
-}
-.work-grid a, .tag-grid a {
-  display: block;
-  height: 10rem;
-  border-bottom: 0;
-}
-.work-grid img, .tag-grid img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all .3s;
-  filter: brightness(100%);
-  border: none;
-  transform: scale(1);
-}
-
-.work-grid a:hover img, .tag-grid a:hover img {
-	transform: scale(1.05);
-}
-
-.work-grid figcaption, .tag-grid figcaption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  color: var(--clr-work-fig-text);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  font-size: 1rem;
-  font-weight: 100;
-  line-height: 1;
-  text-align: center;
-  background: var(--work-static-opacity);
-}
-
-.work-grid figcaption:hover, .tag-grid figcaption:hover {
-  background: var(--clr-work-hvr-bkgd);
-  color: var(--clr-work-fig-text-hvr);
-  transition: .25s;
-}
-
-@media screen and (min-width: 45em) {
-  .work-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .work-grid li {
-    grid-column-start: span var(--cols);
-    grid-row-start: span var(--rows);
-  }
-  .work-grid a {
-    padding-bottom: 52.65%;
-  }
-}
-
-.work-grid-link:hover .work-grid-caption,
-.work-grid-link:focus .work-grid-caption {
-  opacity: 1;
-}
-
-@media (any-hover: none) {
-  .work-grid-caption {
-    /* The media query enclosing these rules matches only
-       touch-screen devices that do not support hover due
-       to lack of pointing device. It does not work in all
-       mobile browsers, but progressively enhances the
-       experience on supported devices. */
-    opacity: 0.65;
-    /* Reset will-change property to keep it from consuming
-       unneccessary resources on touch-only devices */
-    will-change: auto;
-  }
-  .work-grid-title {
-    font-size: .85em;
-  }
-}
-
 /* ===== 3 Site Layout =========================================== */
 
 html {
@@ -949,7 +946,7 @@ body {
   min-height: 100%;
 }
 
-/* Remove all animations & transitions for people that prefer not to see them */
+/* Remove animations & transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   body {
     scroll-behavior: auto;
@@ -1218,8 +1215,6 @@ span.location {
   .main {padding-bottom: .8rem;}
 }
 
-.xpad {padding-bottom: 3rem;}
-
 @media all and (min-width: 74em) {
   .header,
   .main,
@@ -1227,6 +1222,8 @@ span.location {
     width: 92%
     }
 }
+
+.xpad {padding-bottom: 3rem;}
 
 /* ===== 4 Template-specific Components ========================== */
 
@@ -1275,7 +1272,7 @@ span.location {
 
 .plate svg {margin: 1rem 1.5rem 0em 1em}
 
-/*- HAL SVG -*/
+/*- HAL -*/
 .plate div > svg {
     display: block;
     margin: 0 auto;
@@ -1361,8 +1358,6 @@ p.dropcap:not(:focus):first-letter {
 	padding: 20px 10px 20px 10px;
 	border-radius: 5px;
 	}
-
-hr {height: 20px;}
 
 .text blockquote {
 	background-position: left 40px top 40px, right 60px bottom 60px;
