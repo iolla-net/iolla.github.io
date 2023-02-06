@@ -1203,12 +1203,12 @@ span.location {
 
 .main {
   width: 96%;
-	max-width: 48rem;
-	margin: 0 auto;
+  max-width: 48rem;
+  margin: 0 auto;
   padding-top: 3rem;
   padding-bottom: .75rem;
   background-color: var(--clr-main-bkgd);
-  border-radius: 10px;
+  border-radius: 17px;
 }
 
 @media all and (min-width: 38.25em) {
