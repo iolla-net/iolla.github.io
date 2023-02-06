@@ -1203,8 +1203,8 @@ span.location {
 
 .main {
   width: 96%;
-  max-width: 48rem;
-  margin: 0 auto;
+	max-width: 48rem;
+	margin: 0 auto;
   padding-top: 3rem;
   padding-bottom: .75rem;
   background-color: var(--clr-main-bkgd);
@@ -1212,7 +1212,7 @@ span.location {
 }
 
 @media all and (min-width: 38.25em) {
-  .main {padding-bottom: .8rem;}
+  .main {padding-bottom: .75rem;}
 }
 
 @media all and (min-width: 74em) {
@@ -1381,7 +1381,6 @@ p.dropcap:not(:focus):first-letter {
 .plate svg {width: 180px; height: 180px;}
 .pagination-item svg {width: 40px; height: 40px;}
 .pagination-label {font-size: 0.8rem; width: 1.7rem;}
-.work-grid, .tag-grid {grid-gap: 0.8rem;}
 .plate-content, .plate-fact {line-height: 1.5em;}
 }
 
