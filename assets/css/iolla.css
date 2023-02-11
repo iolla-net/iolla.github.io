@@ -1134,8 +1134,8 @@ body {
 span.location {
   font-family: 'Montserrat-light-i', sans-serif;
   font-size: 0.6rem;
-  font-style: italic;
   vertical-align: middle;
+  font-variant: petite-caps;
 }
 
 .footer-peak {
