@@ -1141,6 +1141,7 @@ span.location {
   justify-self: end;
   text-align: right;
   margin-top: 1em;
+  font-variant: petite-caps;
 }
 
 .footer-peak a {border-bottom: none;}
