@@ -399,6 +399,7 @@ h1 + .intro {
 .text blockquote {
   font-size: 0.8rem;
   font-family: 'Montserrat-light-i', sans-serif;
+  font-style: italic;
   padding: 1.5rem 3rem;
   margin-bottom: 1rem;
   background: var(--clr-secondary);
@@ -1132,6 +1133,7 @@ body {
 
 span.location {
   font-family: 'Montserrat-light-i', sans-serif;
+  font-style: italic;
   font-size: 0.6rem;
   vertical-align: middle;
   font-variant: petite-caps;
