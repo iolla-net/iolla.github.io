@@ -1048,6 +1048,7 @@ body {
     linear-gradient(
     to bottom, var(--clr-primary) 0%,
     var(--clr-primary) 100%);
+	background-position: 0 20px;
 	background-repeat: repeat-x;
 }
 
@@ -1353,7 +1354,7 @@ html {
 .footer .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
-.footer-privacy a:hover {background-position: 0 34px;}
+.footer-privacy a:hover {background-position: 0 36px;}
 
 p.dropcap:not(:focus):first-letter {
 	padding: 20px 10px 20px 10px;
@@ -1404,7 +1405,7 @@ p.dropcap:not(:focus):first-letter {
 .footer .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
-.footer-privacy a:hover {background-position: 0 41px;}
+.footer-privacy a:hover {background-position: 0 42px;}
 
 .plate svg {width: 220px; height: 220px;}
 .pagination-item svg {width: 50px; height: 50px;}
