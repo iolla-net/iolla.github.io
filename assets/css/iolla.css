@@ -1055,7 +1055,7 @@ body {
 .footer .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
-.footer-privacy a:hover {background-position: 0 19px;}
+.footer-privacy a:hover {background-position: 0 17px;}
 
 @media all and (min-width: 30em) {
   .menu-item:hover,
@@ -1069,7 +1069,7 @@ body {
   .footer .menu-item.is-active,
   .footer-menu a:hover,
   .footer-privacy.is-active a,
-  .footer-privacy a:hover {background-position: 0 22px;}
+  .footer-privacy a:hover {background-position: 0 20px;}
 }
 
 /* ----- 3.3 Footer ---------------------------------------------- */
@@ -1087,7 +1087,7 @@ body {
   max-width: 48rem;
   margin: 0 auto;
   padding: .75rem;
-  font-size: .875rem;
+  font-size: 0.8rem;
   text-align: right;
   position: sticky;
   top: 100%;
@@ -1127,8 +1127,8 @@ body {
 .footer-privacy svg {
   display: inline-block;
   vertical-align: text-top;
-  width: 0.7rem;
-  height: 1.1rem;
+  width: 0.666rem;
+  height: 1rem;
   fill: var(--clr-text);
 }
 
@@ -1354,7 +1354,7 @@ html {
 .footer .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
-.footer-privacy a:hover {background-position: 0 36px;}
+.footer-privacy a:hover {background-position: 0 33px;}
 
 p.dropcap:not(:focus):first-letter {
 	padding: 20px 10px 20px 10px;
@@ -1405,7 +1405,7 @@ p.dropcap:not(:focus):first-letter {
 .footer .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
-.footer-privacy a:hover {background-position: 0 42px;}
+.footer-privacy a:hover {background-position: 0 40px;}
 
 .plate svg {width: 220px; height: 220px;}
 .pagination-item svg {width: 50px; height: 50px;}
