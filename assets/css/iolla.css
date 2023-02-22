@@ -1297,12 +1297,11 @@ span.location {
 }
 
 .plate-content {
-  padding: 1rem 1em;
-  flex-grow: 1;
+  	padding: 1rem 1em;
+  	flex-grow: 1;
 }
 
 .plate-contact {
-    font-family: Montserrat-semibold, Helvetica, Arial, sans-serif;
     margin-top: 10%;
     text-align: right;
 }
