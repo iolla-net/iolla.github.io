@@ -877,7 +877,6 @@ h1 + .intro {
     display: inline;
     position: static;
     top: 50%;
-    margin: -6px auto 0;
     width: 24px;
     height: 12px;
     padding: 0;
