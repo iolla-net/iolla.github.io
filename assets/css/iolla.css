@@ -438,10 +438,11 @@ h1 + .intro {
   margin-top: .75rem;
   white-space: nowrap;
   font-size: .75em;
-  font-family: Montserrat-semibold, Helvetica, Arial, sans-serif;
+  font-family: Montserrat-regular, Helvetica, Arial, sans-serif;
   line-height: 1;
   font-weight: normal;
   text-align: center;
+  text-transform: uppercase;
   color: var(--clr-text);
 }
 
