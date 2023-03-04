@@ -411,11 +411,6 @@ h1 + .intro {
   border-radius: 5px;
 }
 
-@media all and (min-width: 40em) {
-  .text blockquote {padding: 1.5rem 3rem;
-  }
-}
-
 .project-meta {
   font-size: 0.9rem;
   margin-bottom: 1rem;
