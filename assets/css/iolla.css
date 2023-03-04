@@ -400,7 +400,7 @@ h1 + .intro {
   font-size: 0.8rem;
   font-family: 'Montserrat-light-i', sans-serif;
   font-style: italic;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 1.5rem;
   margin-bottom: 1rem;
   background: var(--clr-secondary);
   background-image: url("https://iolla.net/assets/images/quote-mark-open.svg"), url("https://iolla.net/assets/images/quote-mark-close.svg");
@@ -409,6 +409,11 @@ h1 + .intro {
   background-size: 15%, 25%, auto;
   text-align: left;
   border-radius: 5px;
+}
+
+@media all and (min-width: 40em) {
+  .text blockquote {padding: 1.5rem 3rem;
+  }
 }
 
 .project-meta {
