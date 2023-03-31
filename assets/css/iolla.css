@@ -118,6 +118,7 @@ p.dropcap:not(:focus):first-letter {
 	border-radius: 5px;
 	text-transform: uppercase;
 	background-color: var(--clr-secondary);
+	color: var(--clr-primary);
 }
 
 .a::first-letter, .t::first-letter, .v::first-letter {padding: 10px;}
