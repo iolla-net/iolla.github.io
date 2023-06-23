@@ -761,6 +761,13 @@ h1 + .intro {
   .work-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+   /* tag-grid layout */
+  .website-design, .redesign, .music, .concert, .event, .blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .redesign li:nth-child(1), .music li:nth-child(1), .event li:nth-child(1) {
+	grid-column: 1 / 3;
+  }/* tag-grid layout */
   .work-grid li {
     grid-column-start: span var(--cols);
     grid-row-start: span var(--rows);
