@@ -327,7 +327,7 @@ h1 + .intro {
 }
 
 .text h2:not(.sub-heading),
-.text h3:not(.sub-heading), (.tag-cluster) {
+.text h3:not(.sub-heading) {
   margin-top: 3rem;
 }
 
