@@ -64,21 +64,21 @@
 
 @font-face {
   font-family: 'Montserrat-light-i';
-  src: url(../fonts/montserrat-light-i.woff) format("woff");
+  src: url(https://iolla.net/assets/fonts/montserrat-light-i.woff) format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Montserrat-regular';
-  src: url(../fonts/montserrat-regular.woff) format("woff");
+  src: url(https://iolla.net/assets/fonts/montserrat-regular.woff) format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat-semibold';
-  src: url(../fonts/montserrat-semibold.woff) format("woff");
+  src: url(https://iolla.net/assets/fonts/montserrat-semibold.woff) format("woff");
   font-weight: 600;
   font-style: normal;
 }
@@ -327,7 +327,7 @@ h1 + .intro {
 }
 
 .text h2:not(.sub-heading),
-.text h3:not(.sub-heading) {
+.text h3:not(.sub-heading), (.tag-cluster) {
   margin-top: 3rem;
 }
 
@@ -410,7 +410,7 @@ h1 + .intro {
   padding: 1.5rem 1.5rem;
   margin-bottom: 1rem;
   background: var(--clr-two);
-  background-image: url(../images/quote-mark-open.svg), url(../images/quote-mark-close.svg);
+  background-image: url(https://iolla.net/assets/images/quote-mark-open.svg), url(https://iolla.net/assets/images/quote-mark-close.svg);
   background-position: left 10px top 10px, right 20px bottom 20px;
   background-repeat: no-repeat, no-repeat;
   background-size: 15%, 25%, auto;
@@ -432,8 +432,8 @@ h1 + .intro {
 
 .project-meta span:last-child {display: none;}
 
-.project-meta b::after {
-	content: "— ";
+.project-meta b::after, .tag-cluster b::after {
+	content: " — ";
 	margin: 0 .2em;
 	color: var(--clr-one);
 }
@@ -660,6 +660,14 @@ h1 + .intro {
 }
 
 /* ----- 2.4 Work & Tag Grid ------------------------------------- */
+
+.tag-cluster {
+  margin-bottom: 1rem;
+}
+
+.tag-cluster h3 {
+  margin-bottom: 0.2em;
+  }
 
 .work-grid, .tag-grid {
   display: grid;
