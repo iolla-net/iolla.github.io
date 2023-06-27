@@ -123,7 +123,8 @@ p.dropcap:not(:focus):first-letter {
 	margin: .01em .06em 0 0;
 	border-radius: 5px;
 	text-transform: uppercase;
-	background-color: var(--clr-site-bkgd);
+	background-color: var(--clr-text);
+	color: var(--clr-main-bkgd);
 }
 
 .a::first-letter, .t::first-letter, .v::first-letter {padding: 10px;}
