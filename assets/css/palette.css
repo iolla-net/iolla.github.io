@@ -50,7 +50,7 @@
   --clr-nine: #514d75;
   --clr-text: var(--clr-light);
   --work-static-opacity: rgba(0,0,0, .4);
-  --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
+  --clr-work-hvr-bkgd: rgba(0, 0, 0, 0.75);
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-light);
   --clr-figcaption: #888;
@@ -84,7 +84,7 @@
   --clr-nine: #514d75;
   --clr-text: var(--clr-light);
   --work-static-opacity: rgba(0,0,0, .4);
-  --clr-work-hvr-bkgd: rgba(38, 30, 102, .90);
+  --clr-work-hvr-bkgd: rgba(0, 0, 0, 0.75);
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-light);
   --clr-figcaption: #888;
