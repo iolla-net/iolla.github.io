@@ -22,7 +22,7 @@
   --clr-eight: #f9d8df;
   --clr-nine: #ffe5ea;
   --clr-text: #444;
-  --clr-work-hvr-bkgd: rgba(255, 233, 148, 0.75);
+  --clr-work-hvr-bkgd: rgba(248, 237, 219, 0.75);
   --work-static-opacity: rgba(0,0,0, .2);
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-dark);
