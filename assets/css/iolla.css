@@ -429,7 +429,7 @@ h1 + .intro {
   margin-bottom: 1rem;
 }
 
-.project-meta b {font-weight: 100;}
+.project-meta b, .tag-cluster b {font-weight: 100;}
 
 .project-meta span:last-child {display: none;}
 
