@@ -424,7 +424,7 @@ h1 + .intro {
   }
 }
 
-.project-meta {
+.project-meta, .tag-cluster {
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
@@ -661,14 +661,6 @@ h1 + .intro {
 }
 
 /* ----- 2.4 Work & Tag Grid ------------------------------------- */
-
-.tag-cluster {
-  margin-bottom: 1rem;
-}
-
-.tag-cluster h3 {
-  margin-bottom: 0.2em;
-  }
 
 .work-grid, .tag-grid {
   display: grid;
