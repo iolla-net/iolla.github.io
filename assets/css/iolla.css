@@ -846,6 +846,11 @@ h1 + .intro {
   border: 2px solid var(--clr-one);
 }
 
+.attractor svg {
+  width: 2rem;
+  height: 2rem;
+}
+
 .pagination-item:hover, .pagination-item:focus, .attractor svg:hover {
   background: var(--clr-one);
   color: var(--clr-light);
