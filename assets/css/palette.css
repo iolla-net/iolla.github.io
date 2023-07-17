@@ -55,7 +55,7 @@
   --clr-work-fig-text-hvr: var(--clr-light);
   --clr-figcaption: #888;
   --clr-tactile: rgba(211, 113, 239, 0.5);
-  --clr-picto: #1a182b;
+  --clr-picto: #000;
   --clr-stripe: #29272a;
   --clr-fact: #bab3ff;
   --filter-img-brightness: brightness(.8);
@@ -89,7 +89,7 @@
   --clr-work-fig-text-hvr: var(--clr-light);
   --clr-figcaption: #888;
   --clr-tactile: rgba(211, 113, 239, 0.5);
-  --clr-picto: #1a182b;
+  --clr-picto: #000;
   --clr-stripe: #29272a;
   --clr-fact: #bab3ff;
   --filter-img-brightness: brightness(.8);
