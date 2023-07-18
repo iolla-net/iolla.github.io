@@ -1,26 +1,26 @@
 @charset "UTF-8";
 
 /*
-  # ©John Coyne/iolla website design & Kirby Starterkit Fusion™
+  # ©John Coyne/iolla website design.
+  # Built with lithe lattice substrate.
   # CSS prop var defs
 */
 
 :root {
   --padding: 1.5rem;
   --clr-site-bkgd: #fff;
-  --clr-main-bkgd: #f8eddb;
-  --clr-dots: #e6e6e6;
+  --clr-one: #f8eddb;
   --dot-bkgd-pos: 8px;
   --dot-bkgd-size: 16px;
-  --clr-one: #c15b7b;
-  --clr-two: #ffc0cb;
-  --clr-three: #fff;
-  --clr-four: #ff98a9;
-  --clr-five: #ffa3b3;
-  --clr-six: #ffabba;
-  --clr-seven: #ffb4c1;
-  --clr-eight: #ffbbc7;
-  --clr-nine: #ffc5cf;
+  --clr-one: #f8eddb;
+  --clr-two: #c15b7b;
+  --clr-three: #ffc5cf;
+  --clr-four: #ffc0cb;
+  --clr-five: #ffbbc7;
+  --clr-six: #ffb4c1;
+  --clr-seven: #ffabba;
+  --clr-eight: #ffa3b3;
+  --clr-nine: #ff98a9;
   --clr-text: #444;
   --clr-work-hvr-bkgd: rgba(248, 237, 219, 0.75);
   --work-static-opacity: rgba(0,0,0, .2);
@@ -49,7 +49,7 @@
   2.5 Pagination
   3 Site Layout
   3.1 Header & Logo
-  3.2 Menu & Navigation
+  3.2 Menu & Nav
   3.3 Footer
   3.4 Main Content
   4 Template-specific Components
@@ -99,8 +99,8 @@ footer, header, main, menu, nav, section, summary {
 }
 
 ::selection {
-  background: var(--clr-one);
-  color: var(--clr-site-bkgd);
+  background: var(--clr-two);
+  color: var(--clr-one);
 }
 
 /* ----- 1.3 General Typography ---------------------------------- */
@@ -124,7 +124,7 @@ p.dropcap:not(:focus):first-letter {
 	border-radius: 5px;
 	text-transform: uppercase;
 	background-color: var(--clr-text);
-	color: var(--clr-main-bkgd);
+	color: var(--clr-one);
 }
 
 .a::first-letter, .t::first-letter, .v::first-letter {padding: 10px;}
@@ -182,7 +182,7 @@ a {
 a:hover,
 a:focus,
 a:active {
- color: var(--clr-one);
+ color: var(--clr-two);
   transition: .25s;
 }
 
@@ -190,8 +190,8 @@ a:active {
 	display: inline;
   	background:
     linear-gradient(
-    to bottom, var(--clr-one) 0%,
-    var(--clr-one) 100%);
+    to bottom, var(--clr-two) 0%,
+    var(--clr-two) 100%);
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 4px 13%;
@@ -201,7 +201,7 @@ a:active {
 
 .text a:hover {
   	background-size: 4px 100%;
-  	color: var(--clr-three);
+  	color: var(--clr-one);
   	border-radius: 4px;
 	}
 
@@ -217,7 +217,7 @@ a:active {
 
 .hear-iolla .say-iolla, .colophon .read-iolla {
   visibility: hidden;
-  background-color: var(--clr-two);
+  background-color: var(--clr-three);
   color: var(--clr-text);
   font-size: 0.6rem;
   text-align: center;
@@ -261,7 +261,7 @@ i {}
 em {
   font-weight: 100;
   font-style: normal;
-  color: var(--clr-one);
+  color: var(--clr-two);
 }
 
 u {}
@@ -273,8 +273,8 @@ b, strong {
 mark {
   display: inline-block;
   padding: 4px;
-  color: var(--clr-site-bkgd);
-  background: var(--clr-one);
+  color: var(--clr-one);
+  background: var(--clr-two);
   border-radius: 5px;
 }
 
@@ -289,12 +289,12 @@ img {
 }
 
 .focal figure img {
-  border: 2px solid var(--clr-two);
+  border: 2px solid var(--clr-three);
   border-radius: 10px;
 }
 
 .focal > figure:last-of-type img {
-  border: 2px solid var(--clr-two);
+  border: 2px solid var(--clr-three);
 }
 
 figcaption {
@@ -347,7 +347,7 @@ h1 + .intro {
 
 .text ul > li::before {
   content: "+";
-  color: var(--clr-one);
+  color: var(--clr-two);
   display: inline-block;
   position: relative;
   width: 1.25em;
@@ -361,7 +361,7 @@ h1 + .intro {
 }
 
 .text pre, .text code {
-  background-color: var(--clr-two);
+  background-color: var(--clr-three);
   font-family: Courier, monospace;
   font-size: .75rem;
 }
@@ -436,7 +436,7 @@ h1 + .intro {
 .project-meta b::after, .tag-cluster b::after {
 	content: " — ";
 	margin: 0 .2em;
-	color: var(--clr-one);
+	color: var(--clr-two);
 }
 
 .text blockquote :last-child {
@@ -460,7 +460,7 @@ h1 + .intro {
 }
 
 .btn:hover, .btn:focus {
-  color: var(--clr-one);
+  color: var(--clr-two);
 	background-image: none;
 }
 
@@ -841,9 +841,9 @@ h1 + .intro {
   width: 3rem;
   height: 3rem;
   border-radius: 100%;
-  background: var(--clr-main-bkgd);
-  color: var(--clr-one);
-  border: 2px solid var(--clr-one);
+  background: var(--clr-one);
+  color: var(--clr-two);
+  border: 2px solid var(--clr-two);
 }
 
 .attractor svg {
@@ -852,7 +852,7 @@ h1 + .intro {
 }
 
 .pagination-item:hover, .pagination-item:focus, .attractor svg:hover {
-  background: var(--clr-one);
+  background: var(--clr-two);
   color: var(--clr-light);
 }
 
@@ -861,7 +861,7 @@ h1 + .intro {
 }
 
 .pagination-label:hover, .attractor svg:hover {
-  color: var(--clr-three);
+  color: var(--clr-one);
 }
 
 .pagination-label svg, .attractor svg {
@@ -876,8 +876,8 @@ h1 + .intro {
   border: none;
   background: repeating-linear-gradient(
     45deg,
-    var(--clr-one),
-    var(--clr-one) 4px,
+    var(--clr-two),
+    var(--clr-two) 4px,
     var(--clr-stripe) 4px,
     var(--clr-stripe) 7px
   );
@@ -899,8 +899,8 @@ h1 + .intro {
     border: none;
     background: repeating-linear-gradient(
       45deg,
-      var(--clr-one),
-      var(--clr-one) 10px,
+      var(--clr-two),
+      var(--clr-two) 10px,
       var(--clr-stripe) 10px,
       var(--clr-stripe) 20px
     );
@@ -977,8 +977,8 @@ html {
   /* Highlight colour for WebKit-based touch devices. */
   -webkit-tap-highlight-color: var(--clr-tactile);
   scroll-behavior: smooth;
-  background-image: radial-gradient(var(--clr-dots) 1px,
-	  transparent 0),radial-gradient(var(--clr-dots) 1px,var(--clr-site-bkgd) 0);
+  background-image: radial-gradient(var(--clr-one) 1px,
+	  transparent 0),radial-gradient(var(--clr-one) 1px,var(--clr-site-bkgd) 0);
 	background-position: 0 0,var(--dot-bkgd-pos) var(--dot-bkgd-pos);
 	background-size: var(--dot-bkgd-size) var(--dot-bkgd-size);
 	opacity: 1;
@@ -1029,7 +1029,7 @@ body {
   line-height: 1.8rem;
   border-bottom: 0;
   margin: 0 0.5em 0 0;
-  color: var(--clr-one);
+  color: var(--clr-two);
 }
 
 .logo a {
@@ -1044,8 +1044,8 @@ body {
     display: inline;
   	background:
     linear-gradient(
-    to bottom, var(--clr-one) 0%,
-    var(--clr-one) 100%);
+    to bottom, var(--clr-two) 0%,
+    var(--clr-two) 100%);
 	background-position: 0 29px;
 	background-repeat: repeat-x;
 }
@@ -1079,7 +1079,7 @@ body {
 .menu a[aria-current] {
   text-decoration: underline;
   text-underline-position: under;
-  text-decoration-color: var(--clr-one);
+  text-decoration-color: var(--clr-two);
 }
 
 .footer-menu ul {margin: 0;}
@@ -1090,8 +1090,8 @@ body {
 	display: inline;
   	background:
     linear-gradient(
-    to bottom, var(--clr-one) 0%,
-    var(--clr-one) 100%);
+    to bottom, var(--clr-two) 0%,
+    var(--clr-two) 100%);
 	background-position: 0 20px;
 	background-repeat: repeat-x;
   text-decoration: none;
@@ -1101,8 +1101,8 @@ body {
 .menu-item.is-active, .footer-privacy.is-active a {
   background:
     linear-gradient(
-    to bottom, var(--clr-one) 0%,
-    var(--clr-one) 100%);
+    to bottom, var(--clr-two) 0%,
+    var(--clr-two) 100%);
 	background-position: 0 20px;
 	background-repeat: repeat-x;
 }
@@ -1176,7 +1176,7 @@ body {
 .footer-copyright a::before {
   content: " — ";
   margin: 0 .2em;
-  color: var(--clr-one);
+  color: var(--clr-two);
 }
 
 .footer-privacy svg {
@@ -1231,7 +1231,7 @@ span.location {
 
   .footer-privacy {justify-self: start; text-align: left; grid-row: 2;}
   .footer-copyright {justify-self: middle; text-align: left; grid-row: 1;}
-  .footer-privacy svg {fill: var(--clr-one);}
+  .footer-privacy svg {fill: var(--clr-two);}
 
   .footer-peak {
     grid-column-start: 2;
@@ -1263,7 +1263,7 @@ span.location {
 	max-width: 48rem;
 	margin: 0 auto;
   padding-top: 3rem;
-  background-color: var(--clr-main-bkgd);
+  background-color: var(--clr-one);
   border-radius: 20px;
   overflow: hidden;
 }
@@ -1306,13 +1306,13 @@ span.location {
   font-family: Montserrat-regular, Helvetica, Arial, sans-serif;
   letter-spacing: .025em;
   white-space: nowrap;
-  border-bottom: 4px solid var(--clr-one);
+  border-bottom: 4px solid var(--clr-two);
 }
 
 /* ----- 4.2 Plates ---------------------------------------------- */
 
 .plate {
-  background: var(--clr-two);
+  background: var(--clr-three);
   background-clip: content-box;
   text-align: left;
   font-size: .85rem;
@@ -1425,10 +1425,10 @@ p.dropcap:not(:focus):first-letter {
 	}
 
 .focal figure img {
-  	border: 4px solid var(--clr-two);
+  	border: 4px solid var(--clr-three);
 	}
 
-.focal > figure:last-of-type img {border: 8px solid var(--clr-two);}
+.focal > figure:last-of-type img {border: 8px solid var(--clr-three);}
 
 .plate svg:not(.attractor svg) {width: 180px; height: 180px;}
 .pagination-item svg {width: 40px; height: 40px;}
