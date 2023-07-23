@@ -2,7 +2,7 @@
 
 /*
   # ©John Coyne/iolla website design.
-  # Built with lithe lattice substrate.
+  # Built with Kirby & lithe substrate.
   # CSS prop var defs
 */
 
@@ -29,7 +29,6 @@
   --clr-figcaption: #4d4b4b;
   --clr-tactile: rgba(239, 113, 113, 0.5);
   --clr-picto: #c15b7b;
-  --clr-stripe: #fff;
   --clr-fact: #6c1919;
   --filter-img-brightness: brightness(inherit);
 }
@@ -872,18 +871,9 @@ h1 + .intro {
   fill: currentColor;
 }
 
-.pagination-item.is-inactive {
-  border: none;
-  background: repeating-linear-gradient(
-    45deg,
-    var(--clr-two),
-    var(--clr-two) 4px,
-    var(--clr-stripe) 4px,
-    var(--clr-stripe) 7px
-  );
-}
+.pagination-item.is-inactive {}
 
-.pagination-label-text, .pagination-item.is-inactive svg {display: none;}
+.pagination-label-text {display: none;}
 
 @media all and (min-width: 75em) {
   .pagination-item {
@@ -895,16 +885,7 @@ h1 + .intro {
     border: none;
   }
 
-  .pagination-item.is-inactive {
-    border: none;
-    background: repeating-linear-gradient(
-      45deg,
-      var(--clr-two),
-      var(--clr-two) 10px,
-      var(--clr-stripe) 10px,
-      var(--clr-stripe) 20px
-    );
-  }
+  .pagination-item.is-inactive {}
 
   .pagination-label {
     display: block;
