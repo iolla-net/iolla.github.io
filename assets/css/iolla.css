@@ -556,6 +556,7 @@ h1 + .intro {
 .work-grid, .tag-grid, .facet.grid:not(.error) {margin: 0;}
 
 .error.main {padding-top: 0;}
+.error .plate {background: var(--clr-five);}
 
 /* ----- Grid (services) big surface area -------------- */
 @media screen and (min-width: 44em) {
