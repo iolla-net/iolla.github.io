@@ -849,6 +849,7 @@ h1 + .intro {
 .attractor svg {
   width: 2rem;
   height: 2rem;
+  padding: 20%;
 }
 
 .pagination-item:hover, .pagination-item:focus, .attractor svg:hover {
@@ -864,7 +865,7 @@ h1 + .intro {
   color: var(--clr-one);
 }
 
-.pagination-label svg, .attractor svg {
+.pagination-label svg {
   padding: 25%;
 }
 
