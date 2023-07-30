@@ -193,7 +193,7 @@ a:active {
     var(--clr-two) 100%);
 	background-position: 0 100%;
 	background-repeat: repeat-x;
-	background-size: 4px 13%;
+	background-size: 4px 12%;
   	text-decoration: none;
   	transition: background-size .2s;
 	}
