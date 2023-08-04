@@ -27,7 +27,7 @@
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-dark);
   --clr-figcaption: #4d4b4b;
-  --clr-tactile: rgba(239, 113, 113, 0.5);
+  --clr-tactile: rgba(255, 197, 207, 0.60);
   --clr-picto: #c15b7b;
   --clr-fact: #6c1919;
   --filter-img-brightness: brightness(inherit);
@@ -455,6 +455,8 @@ h1 + .intro {
   border-radius: 100px;
   width: 45%;
 }
+
+.xl {background: var(--clr-tactile);}
 
 @media all and (min-width: 50em) {
   .btn {width: 40%;}

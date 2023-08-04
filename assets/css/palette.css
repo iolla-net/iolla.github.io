@@ -52,7 +52,7 @@
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-light);
   --clr-figcaption: #888;
-  --clr-tactile: rgba(211, 113, 239, 0.5);
+  --clr-tactile: rgba(64, 60, 96, 0.60);
   --clr-picto: #000;
   --clr-fact: #bab3ff;
   --filter-img-brightness: brightness(.8);
@@ -83,7 +83,7 @@
   --clr-work-fig-text: var(--clr-light);
   --clr-work-fig-text-hvr: var(--clr-light);
   --clr-figcaption: #888;
-  --clr-tactile: rgba(211, 113, 239, 0.5);
+  --clr-tactile: rgba(64, 60, 96, 0.60);
   --clr-picto: #000;
   --clr-fact: #bab3ff;
   --filter-img-brightness: brightness(.8);
