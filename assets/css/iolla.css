@@ -313,6 +313,9 @@ figcaption {
   clear: both;
 }
 
+.xpad {padding-bottom: 1.5rem;}
+.xlpad {padding-bottom: 3rem;}
+
 /* -- 2.1 Kirbytext ------------------------------------------- */
 
 .intro {
@@ -1255,8 +1258,6 @@ span.location {
     width: 92%
     }
 }
-
-.xpad {padding-bottom: 3rem;}
 
 /* == 4 Template-specific Components ========================== */
 
