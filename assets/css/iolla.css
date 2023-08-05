@@ -462,8 +462,8 @@ h1 + .intro {
 .xl {background: var(--clr-tactile);}
 
 @media all and (min-width: 50em) {
-  .btn {width: 40%;}
-  .xl {font-size: 1rem; letter-spacing: 1px;}
+  .btn {width: 40%; letter-spacing: 1px;}
+  .xl {font-size: 1rem;}
 }
 
 .btn:hover, .btn:focus {
