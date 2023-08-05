@@ -450,7 +450,7 @@ h1 + .intro {
   font-size: .8rem;
   font-weight: 700;
   line-height: 1;
-  letter-spacing: 1px;
+  letter-spacing: inherit;
   text-align: center;
   background: var(--clr-one);
   color: var(--clr-two);
@@ -463,7 +463,7 @@ h1 + .intro {
 
 @media all and (min-width: 50em) {
   .btn {width: 40%;}
-  .xl {font-size: 1rem;}
+  .xl {font-size: 1rem; letter-spacing: 1px;}
 }
 
 .btn:hover, .btn:focus {
