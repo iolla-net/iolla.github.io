@@ -444,7 +444,7 @@ h1 + .intro {
 
 .btn {
   display: block;
-  padding: .6rem;
+  padding: .6rem .4rem;
   white-space: nowrap;
   font-family: Montserrat-semibold, Helvetica, Arial, sans-serif;
   font-size: .8rem;
