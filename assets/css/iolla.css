@@ -275,6 +275,7 @@ mark {
   color: var(--clr-one);
   background: var(--clr-two);
   border-radius: 5px;
+  margin: 6px 0;
 }
 
 /* -- 1.4 Images & Figures ------------------------------------ */
