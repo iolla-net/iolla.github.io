@@ -112,30 +112,21 @@ p, ul, ol, figure, pre {
   margin: 0 0 1.5rem;
 }
 
-p.dropcap:not(:focus):first-letter {
+p:not(:focus):first-child:first-letter {
 	float: left;
 	font-family: Montserrat-semibold, Helvetica, Arial, sans-serif;
-	font-size: 2.8em;
+	font-size: 3.5em;
 	line-height: .68;
 	font-weight: 600;
 	font-style: normal;
-	margin: .01em .06em 0 0;
-	border-radius: 5px;
 	text-transform: uppercase;
-	background-color: var(--clr-text);
-	color: var(--clr-one);
+	color: var(--clr-text);
+  padding-top: 4px;
+  padding-right: 8px;
 }
 
-.a::first-letter, .t::first-letter, .v::first-letter {padding: 10px;}
-.d::first-letter {padding: 10px 4px 10px 1px;}
-.g::first-letter {padding: 10px 0px 10px 3px;}
-.l::first-letter {padding: 8px 8px 10px 2px;}
-.m::first-letter {padding: 10px 0;}
-.o::first-letter {padding: 10px 4px;}
-.r::first-letter {padding: 10px 2px 10px 0px;}
-
 @media screen and (min-width: 30em) {
-  p.dropcap:not(:focus):first-letter {font-size: 5em;}
+  p:not(:focus):first-child:first-letter {font-size: 5.5em;}
 }
 
 /* Headings */
