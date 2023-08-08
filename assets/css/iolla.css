@@ -503,7 +503,7 @@ h1 + .intro {
 .tag {display: inline-block;}
 
 .close {
-  font-size: 2em;
+  font-size: 3em;
   display: inline-block;
   vertical-align: text-top;
   animation: glint 1s infinite;
