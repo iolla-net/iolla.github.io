@@ -488,7 +488,7 @@ h1 + .intro {
 }
 
 .indicate {
-  animation: indicate 4s 2s infinite;
+  animation: indicate 2s 1s infinite;
 	display: block;
 	margin: 0 auto;
   text-align: center;
