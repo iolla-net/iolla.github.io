@@ -1168,7 +1168,6 @@ span.location {
 	margin-top: 1em;
 	border: 2px solid var(--clr-two);
 	border-radius: 100%;
-	color: var(--clr-two);
 	fill: var(--clr-two);
 	background: var(--clr-one);
   justify-self: end;
