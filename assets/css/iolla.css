@@ -196,14 +196,12 @@ a:active {
 	}
 
 /* Misc */
-.hear-iolla {
+.hear-iolla, .iolla {
   position: relative;
   display: inline-block;
   text-decoration: underline;
   text-decoration-style: wavy;
 }
-
-.colophon .iolla {border-bottom: 2px solid;}
 
 .hear-iolla .say-iolla, .colophon .read-iolla {
   visibility: hidden;
