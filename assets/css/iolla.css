@@ -464,7 +464,7 @@ h1 + .intro {
 .show {
   display: block;
   padding: .4rem 0;
-  line-height: 1;
+  line-height: 0;
   text-align: center;
 }
 
