@@ -573,7 +573,7 @@ h1 + .intro {
 /* -- Grid (services) big surface area -------------- */
 @media screen and (min-width: 44em) {
   .surface li:first-child {grid-column: span 8;}
-  .surface li:first-child .plate-title {font-size: 2rem; margin-bottom: 0.75em}
+  .surface li:first-child .plate-title {font-size: 2rem; margin-bottom: .75em}
   .surface li:first-child .plate-text {font-size: 1.2rem; line-height: 1.7rem}
 }
 
@@ -1003,8 +1003,8 @@ body {
   align-items: center;
   width: 96%;
   max-width: 48rem;
-  margin: 0 auto .75rem;
-  padding: 0 .75rem;
+  margin: 0 auto;
+  padding: .75rem;
 }
 
 .logo {
@@ -1013,7 +1013,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.8rem;
   border-bottom: 0;
-  margin: 0 0.5em 0 0;
+  margin: 0 .5em 0 0;
   color: var(--clr-two);
 }
 
@@ -1183,10 +1183,10 @@ span.location {
 @media all and (min-width: 31.5em) {
   .header {
     margin: 0 auto 0rem;
-    padding: 1rem 1.5rem;
+    padding: .5rem 1.5rem;
     }
 
-  .footer {padding: 1.5rem;
+  .footer {padding: .5rem 1.5rem 1.5rem;
   }
 }
 
