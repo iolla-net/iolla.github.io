@@ -1398,7 +1398,7 @@ p.dropcap:not(:focus):first-letter {
 
 .focal > figure:last-of-type img {border: 8px solid var(--clr-three);}
 
-.plate svg:not(.attractor svg) {width: 180px; height: 180px;}
+.plate svg:not(.attractor svg):not(.error svg) {width: 180px; height: 180px;}
 .pagination-item svg {width: 40px; height: 40px;}
 .pagination-label {font-size: 0.8rem; width: 1.7rem;}
 .plate-content, .plate-fact {line-height: 1.5em;}
@@ -1425,6 +1425,6 @@ p.dropcap:not(:focus):first-letter {
 .footer-privacy.is-active a,
 .footer-privacy a:hover {background-position: 0 40px;}
 
-.plate svg:not(.attractor svg) {width: 220px; height: 220px;}
+.plate svg:not(.attractor svg):not(.error svg) {width: 220px; height: 220px;}
 .pagination-item svg {width: 50px; height: 50px;}
 }
