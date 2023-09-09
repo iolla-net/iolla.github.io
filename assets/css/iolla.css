@@ -235,24 +235,11 @@ a:active {
   }
 }
 
-hr {}
-
-h1 + hr,
-.intro + hr {
-  /* Shift <hr> after an .intro
-     or <h1> block up one line. */
-  margin-top: -1.5rem;
-}
-
-i {}
-
 em {
   font-weight: 100;
   font-style: normal;
   color: var(--clr-two);
 }
-
-u {}
 
 b, strong {
   font-weight: 700;
@@ -642,6 +629,12 @@ h1 + .intro {
   .facet li:nth-child(4) {
     grid-column: span 8;
     grid-template-columns: 5fr 3fr;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .facet li:first-child .plate-content:not(.hal), .surface li:first-child .plate-content {
+    padding: 1.5rem 4rem;
   }
 }
 
@@ -1298,10 +1291,8 @@ span.location {
   flex-direction: column;
 }
 
-.plate svg:not(.attractor svg):not(.error svg) {margin: 1rem 1.5rem 0em 1em}
-
 /*- HAL -*/
-.plate div > svg {
+.error svg {
     display: block;
     margin: 0 auto;
     width: 90%;
@@ -1310,7 +1301,7 @@ span.location {
 }
 
 @media all and (min-width: 44em) {
-  .plate div > svg {padding-bottom: 0;}
+  .error svg {padding-bottom: 0;}
 }
 
 .plate-title {
@@ -1341,7 +1332,7 @@ span.location {
 
 @media all and (min-width: 58em) {
   .plate-content {padding: 1.5rem 1.5em;}
-  .plate svg:not(.attractor svg):not(.error svg) {margin: 1.5rem 1.5rem 0em 1.5em}
+  .plate svg:not(.attractor svg):not(.error svg) {margin-bottom: .5rem;}
 }
 
 /* -- 5 Hdpi + widescreen support ----------------------------- */
