@@ -425,6 +425,7 @@ h1 + .intro {
   white-space: nowrap;
   font-family: Montserrat-semibold, Helvetica, Arial, sans-serif;
   font-size: .8rem;
+  font-size: clamp(.5rem, 3.5vw, .8rem);
   font-weight: 700;
   line-height: 1;
   letter-spacing: inherit;
@@ -440,7 +441,7 @@ h1 + .intro {
 
 @media all and (min-width: 50em) {
   .btn {width: 40%; letter-spacing: 1px;}
-  .xl {font-size: 1rem;}
+  .xl {font-size: 1rem; font-size: clamp(.5rem, 3.5vw, 1rem);}
 }
 
 .btn:hover, .btn:focus {
@@ -1314,7 +1315,7 @@ span.location {
 }
 
 .plate-content {
-    padding: 1rem 1em;
+    padding: 1rem;
     flex-grow: 1;
 }
 
