@@ -380,6 +380,7 @@ h1 + .intro {
 
 .text blockquote {
   font-size: 0.8rem;
+  line-height: 1.5em;
   font-family: 'Montserrat-light-i', sans-serif;
   font-style: italic;
   padding: 1.5rem 1.5rem;
@@ -1264,11 +1265,6 @@ span.location {
   text-align: left;
 }
 
-.article:last-of-type + hr {
-  /* Hide last <hr> on blog page */
-  display: none;
-}
-
 .article-more {
   font-size: 75%;
   text-transform: uppercase;
@@ -1317,6 +1313,7 @@ span.location {
 .plate-content {
     padding: 1rem;
     flex-grow: 1;
+    line-height: 1.5em;
 }
 
 .plate-contact {
@@ -1329,10 +1326,10 @@ span.location {
 .plate-fact {
     color: var(--clr-fact);
     font-size: 0.7em;
+    line-height: 1.5em;
 }
 
 @media all and (min-width: 58em) {
-  .plate-content {padding: 1.5rem 1.5em;}
   .plate svg:not(.attractor svg):not(.error svg) {margin-bottom: .5rem;}
 }
 
@@ -1382,7 +1379,6 @@ p.dropcap:not(:focus):first-letter {
 
 .text blockquote {
 	background-position: left 40px top 40px, right 60px bottom 60px;
-	line-height: 1.5em;
 	}
 
 .hear-iolla .say-iolla, .colophon .read-iolla {
@@ -1402,7 +1398,6 @@ p.dropcap:not(:focus):first-letter {
 .plate svg:not(.attractor svg):not(.error svg) {width: 180px; height: 180px;}
 .pagination-item svg {width: 40px; height: 40px;}
 .pagination-label {font-size: 0.8rem; width: 1.7rem;}
-.plate-content, .plate-fact {line-height: 1.5em;}
 }
 
 @media all and (min-width: 150em) {
