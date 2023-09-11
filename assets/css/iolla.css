@@ -270,7 +270,7 @@ img {
 }
 
 .focal > figure:last-of-type img {
-  border: 2px solid var(--clr-three);
+  border: 4px solid var(--clr-three);
 }
 
 figcaption {
