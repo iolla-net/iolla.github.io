@@ -378,7 +378,7 @@ h1 + .intro {
   bottom: 2px;
 }
 
-.text blockquote {
+blockquote {
   font-size: 0.8rem;
   line-height: 1.5em;
   font-family: 'Montserrat-light-i', sans-serif;
@@ -394,8 +394,12 @@ h1 + .intro {
   border-radius: 20px;
 }
 
+blockquote:last-child {
+  margin-bottom: 0;
+}
+
 @media all and (min-width: 40em) {
-  .text blockquote {padding: 1.5rem 3rem;
+  blockquote {padding: 1.5rem 3rem;
   }
 }
 
@@ -412,10 +416,6 @@ h1 + .intro {
 	content: " — ";
 	margin: 0 .2em;
 	color: var(--clr-two);
-}
-
-.text blockquote :last-child {
-  margin-bottom: 0;
 }
 
 /* -- 2.2 Buttons & Animations -------------------------------- */
@@ -1330,6 +1330,7 @@ span.location {
 }
 
 @media all and (min-width: 58em) {
+  .plate-content {padding: 1.5rem;}
   .plate svg:not(.attractor svg):not(.error svg) {margin-bottom: .5rem;}
 }
 
@@ -1377,7 +1378,7 @@ p.dropcap:not(:focus):first-letter {
 	border-radius: 5px;
 	}
 
-.text blockquote {
+blockquote {
 	background-position: left 40px top 40px, right 60px bottom 60px;
 	}
 
