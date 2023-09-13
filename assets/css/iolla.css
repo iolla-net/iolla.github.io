@@ -503,6 +503,11 @@ blockquote:last-child {
   animation: glint 1s infinite;
 }
 
+.close:hover {
+  animation: none;
+  color: var(--clr-two);
+}
+
 /* -- 2.3 Grids & Layout -------------------------------------- */
 
 .grid {
@@ -572,12 +577,12 @@ blockquote:last-child {
   }
 }
 
-.surface li:nth-child(2) {background-color: var(--clr-four);}
-.surface li:nth-child(3) {background-color: var(--clr-five);}
-.surface li:nth-child(4) {background-color: var(--clr-six);}
-.surface li:nth-child(5) {background-color: var(--clr-seven);}
-.surface li:nth-child(6) {background-color: var(--clr-eight);}
-.surface li:nth-child(7) {background-color: var(--clr-nine);}
+.surface li:nth-child(2) {background-color: var(--clr-four)}
+.surface li:nth-child(3) {background-color: var(--clr-five)}
+.surface li:nth-child(4) {background-color: var(--clr-six)}
+.surface li:nth-child(5) {background-color: var(--clr-seven)}
+.surface li:nth-child(6) {background-color: var(--clr-eight)}
+.surface li:nth-child(7) {background-color: var(--clr-nine)}
 
 /* -- Grid (facet) attenuated ----------------------- */
 .facet li {
