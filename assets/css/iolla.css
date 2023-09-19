@@ -1122,15 +1122,16 @@ body {
   text-transform: uppercase;
 }
 
-.footer .heart {
-  /* Arial Unicode MS heart for symmetry */
-  font-family: "Arial Unicode MS", Arial, sans-serif;
+.footer-privacy svg, .footer-copyright svg {
   display: inline-block;
-  line-height: 1.0rem;
+  vertical-align: text-bottom;
+  width: 0.666rem;
+  height: 1rem;
+  fill: var(--clr-text);
 }
 
-.footer-copyright a:hover .heart {
-  animation: pulsing-heart .6s linear infinite; color: red;
+.footer-copyright a:hover .heart svg {
+  animation: pulsing-heart .6s linear infinite; fill: #f66;
 }
 
 .footer-copyright a {
@@ -1142,14 +1143,6 @@ body {
   content: " — ";
   margin: 0 .2em;
   color: var(--clr-two);
-}
-
-.footer-privacy svg {
-  display: inline-block;
-  vertical-align: text-top;
-  width: 0.666rem;
-  height: 1rem;
-  fill: var(--clr-text);
 }
 
 span.location {
