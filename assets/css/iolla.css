@@ -98,8 +98,8 @@ footer, header, main, menu, nav, section, summary {
 }
 
 ::selection {
-  background: var(--clr-two);
   color: var(--clr-one);
+  background: var(--clr-two);
 }
 
 /* -- 1.3 General Typography ---------------------------------- */
@@ -412,9 +412,8 @@ blockquote:last-child {
 
 .project-meta span:last-child {display: none;}
 
-.project-meta b::after, .tag-cluster b::after {
+.project-meta b::after, .tag-cluster b::after, .footer-copyright a::before {
 	content: " — ";
-	margin: 0 .2em;
 	color: var(--clr-two);
 }
 
@@ -431,8 +430,8 @@ blockquote:last-child {
   line-height: 1;
   letter-spacing: inherit;
   text-align: center;
-  background: var(--clr-one);
   color: var(--clr-two);
+  background: var(--clr-one);
   border: 2px solid var(--clr-two);
   border-radius: 100px;
   width: 45%;
@@ -853,8 +852,8 @@ blockquote:last-child {
   width: 3rem;
   height: 3rem;
   border-radius: 100%;
-  background: var(--clr-one);
   color: var(--clr-two);
+  background: var(--clr-one);
   border: 2px solid var(--clr-two);
 }
 
@@ -865,8 +864,8 @@ blockquote:last-child {
 }
 
 .pagination-item:hover, .pagination-item:focus, .attractor svg:hover {
-  background: var(--clr-two);
   color: var(--clr-light);
+  background: var(--clr-two);
 }
 
 .pagination-item:active {
@@ -1138,11 +1137,6 @@ body {
   font-family: Montserrat-regular, Helvetica, Arial, sans-serif;
   text-transform: none;
   font-size: 0.8rem;}
-
-.footer-copyright a::before {
-  content: " — ";
-  color: var(--clr-two);
-}
 
 span.location {
   font-family: 'Montserrat-light-i', sans-serif;
