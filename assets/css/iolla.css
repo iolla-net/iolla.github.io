@@ -1141,7 +1141,6 @@ body {
 
 .footer-copyright a::before {
   content: " — ";
-  margin: 0 .2em;
   color: var(--clr-two);
 }
 
