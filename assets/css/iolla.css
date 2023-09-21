@@ -205,7 +205,7 @@ a:active {
 
 .hear-iolla .say-iolla, .colophon .read-iolla {
   visibility: hidden;
-  background-color: var(--clr-six);
+  background-color: var(--clr-nine);
   color: var(--clr-text);
   font-size: 0.6rem;
   text-align: center;
