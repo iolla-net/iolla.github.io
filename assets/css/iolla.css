@@ -232,6 +232,7 @@ a:active {
   }
   .colophon:hover .read-iolla {
     visibility: visible;
+    border-radius: 100px;
   }
 }
 
