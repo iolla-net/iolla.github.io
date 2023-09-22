@@ -199,8 +199,7 @@ a:active {
 .hear-iolla, .iolla {
   position: relative;
   display: inline-block;
-  text-decoration: underline;
-  text-decoration-style: wavy;
+  border-bottom: 2px dotted;
 }
 
 .hear-iolla .say-iolla, .colophon .read-iolla {
