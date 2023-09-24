@@ -202,7 +202,7 @@ a:active {
   border-bottom: 2px dotted;
 }
 
-.hear-iolla .say-iolla, .colophon .read-iolla {
+.say-iolla, .read-iolla {
   visibility: hidden;
   background-color: var(--clr-nine);
   color: var(--clr-text);
@@ -218,7 +218,7 @@ a:active {
   margin-left: -60px; /* 1/2 width (120/2=60) centers tooltip */
 }
 
-.colophon .read-iolla {margin-left: -50px;}
+.read-iolla {margin-left: -50px;}
 
 .hear-iolla:hover .say-iolla {
     visibility: visible;
@@ -1359,6 +1359,9 @@ html {
 	background-position: 0 38px;
 	}
 
+.btn {font-size: 1rem; font-size: clamp(.5rem, 1.5vw, 1rem);}
+.xl {font-size: 1rem; font-size: clamp(.5rem, 3.5vw, 1rem);}
+
 .footer .menu-item.is-active,
 .footer-menu a:hover,
 .footer-privacy.is-active a,
@@ -1373,12 +1376,12 @@ blockquote {
 	background-position: left 40px top 40px, right 60px bottom 60px;
 	}
 
-.hear-iolla .say-iolla, .colophon .read-iolla {
+.hear-iolla .say-iolla, .read-iolla {
 	font-size: 0.7rem;
-  	padding: 8px;
+  	padding: 8px 3px;
   	border-radius: 8px;
-  	width: 240px;
-  	margin-left: -120px; /* 1/2 width (240/2=120) to center tooltip */
+  	width: 260px;
+  	margin-left: -130px; /* 1/2 width (260/2=130) to center tooltip */
 	}
 
 .focal figure img {
