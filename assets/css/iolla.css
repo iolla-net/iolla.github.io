@@ -208,14 +208,14 @@ a:active {
   color: var(--clr-text);
   font-size: 0.6rem;
   text-align: center;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 10px;
   position: absolute;
   z-index: 1;
-  width: 120px;
+  width: 130px;
   bottom: 100%;
   left: 50%;
-  margin-left: -60px; /* 1/2 width (120/2=60) centers tooltip */
+  margin-left: -65px; /* 1/2 width (130/2=65) centers tooltip */
 }
 
 .read-iolla {margin-left: -50px;}
