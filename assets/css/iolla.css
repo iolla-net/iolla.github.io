@@ -209,7 +209,7 @@ a:active {
   font-size: 0.6rem;
   text-align: center;
   padding: 5px;
-  border-radius: 4px;
+  border-radius: 10px;
   position: absolute;
   z-index: 1;
   width: 120px;
@@ -1334,7 +1334,7 @@ span.location {
     }
 
 html {
-	/* increase wide screen font */
+	/* increase widescreen font */
 	font-size: 2.5em;
 	line-height: 1.7em;
 	}
@@ -1376,12 +1376,19 @@ blockquote {
 	background-position: left 40px top 40px, right 60px bottom 60px;
 	}
 
-.hear-iolla .say-iolla, .read-iolla {
+.hear-iolla .say-iolla {
 	font-size: 0.7rem;
   	padding: 8px 3px;
-  	border-radius: 8px;
   	width: 260px;
-  	margin-left: -130px; /* 1/2 width (260/2=130) to center tooltip */
+  	margin-left: -130px; /* 1/2 width */
+	}
+
+.read-iolla {
+  font-size: 0.6rem;
+  padding: 2px 4px;
+  width: 200px;
+  left: 60%;
+  margin-left: -100px; /* 1/2 width */
 	}
 
 .focal figure img {
@@ -1415,6 +1422,20 @@ blockquote {
 .footer-menu a:hover,
 .footer-privacy.is-active a,
 .footer-privacy a:hover {background-position: 0 40px;}
+
+.hear-iolla .say-iolla {
+	font-size: 0.7rem;
+  	padding: 8px 3px;
+  	width: 280px;
+  	margin-left: -140px; /* 1/2 width */
+	}
+
+.read-iolla {
+  font-size: 0.6rem;
+  padding: 2px 4px;
+  width: 240px;
+  margin-left: -120px; /* 1/2 width */
+	}
 
 .plate svg:not(.attractor svg):not(.error svg) {width: 220px; height: 220px;}
 .pagination-item svg {width: 50px; height: 50px;}
