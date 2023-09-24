@@ -1380,7 +1380,7 @@ blockquote {
 	font-size: 0.7rem;
   	padding: 8px 3px;
   	width: 260px;
-  	margin-left: -130px; /* 1/2 width */
+  	margin-left: -130px;
 	}
 
 .read-iolla {
@@ -1388,7 +1388,7 @@ blockquote {
   padding: 2px 4px;
   width: 200px;
   left: 60%;
-  margin-left: -100px; /* 1/2 width */
+  margin-left: -100px;
 	}
 
 .focal figure img {
@@ -1424,17 +1424,13 @@ blockquote {
 .footer-privacy a:hover {background-position: 0 40px;}
 
 .hear-iolla .say-iolla {
-	font-size: 0.7rem;
-  	padding: 8px 3px;
   	width: 280px;
-  	margin-left: -140px; /* 1/2 width */
+  	margin-left: -140px;
 	}
 
 .read-iolla {
-  font-size: 0.6rem;
-  padding: 2px 4px;
   width: 240px;
-  margin-left: -120px; /* 1/2 width */
+  margin-left: -120px;
 	}
 
 .plate svg:not(.attractor svg):not(.error svg) {width: 220px; height: 220px;}
