@@ -8,12 +8,12 @@
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">\
     <path d="M12,0.016c6.614,0 11.984,5.37 11.984,11.984c0,6.614 -5.37,11.984 -11.984,11.984c-6.614,0 -11.984,-5.37 -11.984,-11.984c-0,-6.614 5.37,-11.984 11.984,-11.984Zm-0,21.504c5.254,-0 9.52,-4.266 9.52,-9.52c-0,-5.254 -4.266,-9.52 -9.52,-9.52c-5.254,-0 -9.52,4.266 -9.52,9.52c-0,5.254 4.266,9.52 9.52,9.52Z"></path>\
   </svg>');
-  --icon-sun-filter: invert(26%) sepia(63%) saturate(4024%) hue-rotate(319deg) brightness(110%) contrast(121%);
+  --icon-sun-filter: invert(36%) sepia(79%) saturate(559%) hue-rotate(301deg) brightness(89%) contrast(93%);
   --icon-moon: url('data:image/svg+xml,\
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">\
     <path d="M12,0.016c6.614,0 11.984,5.37 11.984,11.984c0,6.614 -5.37,11.984 -11.984,11.984c-6.614,0 -11.984,-5.37 -11.984,-11.984c0,-6.614 5.37,-11.984 11.984,-11.984Zm-0,21.504c5.254,-0 9.52,-4.266 9.52,-9.52c-0,-5.254 -4.266,-9.52 -9.52,-9.52c-5.254,-0 -9.52,4.266 -9.52,9.52c-0,5.254 4.266,9.52 9.52,9.52Zm-0,-17.138c4.205,-0 7.618,3.413 7.618,7.618c0,4.205 -3.413,7.618 -7.618,7.618c-4.205,0 -7.618,-3.413 -7.618,-7.618c-0,-4.205 3.413,-7.618 7.618,-7.618Z"></path>\
   </svg>');
-  --icon-moon-filter: invert(18%) sepia(100%) saturate(4224%) hue-rotate(279deg) brightness(80%) contrast(126%);
+  --icon-moon-filter: invert(30%) sepia(29%) saturate(1692%) hue-rotate(227deg) brightness(96%) contrast(93%);
   --btn-icon: var(--icon-moon);
   --btn-icon-filter: var(--icon-moon-filter);
   --btn-bkgd: var(--clr-dark);
