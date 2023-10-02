@@ -1003,7 +1003,7 @@ body {
   width: 96%;
   max-width: 48rem;
   margin: 0 auto;
-  padding: .75rem;
+  padding: .4rem .75rem;
 }
 
 .logo {
