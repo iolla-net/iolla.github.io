@@ -29,7 +29,7 @@
   --clr-figcaption: #4d4b4b;
   --clr-tactile: rgba(255, 197, 207, 0.60);
   --clr-picto: #c15b7b;
-  --clr-fact: #6c1919;
+  --clr-tagline: #6c1919;
   --filter-img-brightness: brightness(inherit);
 }
 
@@ -112,7 +112,7 @@ p, ul, ol, figure, pre {
   margin: 0 0 1.5rem;
 }
 
-p:not(:focus):first-child:first-letter {
+p:not(.alya p):not(:focus):first-child:first-letter {
 	float: left;
 	font-family: Montserrat-semibold, Helvetica, Arial, sans-serif;
 	font-size: 3.5em;
@@ -126,7 +126,7 @@ p:not(:focus):first-child:first-letter {
 }
 
 @media screen and (min-width: 30em) {
-  p:not(:focus):first-child:first-letter {font-size: 5.5em;}
+  p:not(.alya p):not(:focus):first-child:first-letter {font-size: 5.5em;}
 }
 
 /* Headings */
@@ -143,8 +143,23 @@ h1 {
   margin-bottom: 2rem;
 }
 
+.alya h1, .alya h2, .alya h3, .alya h4, .alya p {
+  font-family: Times New Roman, Times, serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.alya h1 {
+  font-size: 1.5rem;
+}
+
 h2 {
   font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.alya h2 {
+  font-size: 3rem;
   line-height: 1.5rem;
 }
 
@@ -264,6 +279,15 @@ img {
   filter: var(--filter-img-brightness);
 }
 
+.alya img {
+  display: block;
+  border: 10px solid var(--clr-six);
+  border-radius: 100%;
+  max-height: 310px;
+  max-width: 310px;
+  margin: 0 auto;
+  }
+
 .focal figure img {
   border: 2px solid var(--clr-three);
   border-radius: 10px;
@@ -306,8 +330,8 @@ h1 + .intro {
   margin-top: 0rem;
 }
 
-.text h2:not(.sub-heading),
-.text h3:not(.sub-heading) {
+.text h2:not(.sub-heading):not(.alya h2),
+.text h3:not(.sub-heading):not(.alya h3) {
   margin-top: 3rem;
 }
 
@@ -594,10 +618,13 @@ blockquote:last-child {
   place-items: end;
   grid-row-start: 1;
 }
+.facet .plate-title {
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+}
 .facet .plate-content p {
   margin: inherit;
 }
-
 .facet li:nth-child(2) {
   grid-template-columns: 1fr 1fr;
   background-color: var(--clr-five);
@@ -1297,8 +1324,10 @@ span.location {
 }
 
 .plate-tagline {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-bottom: 1.5em;
+    color: var(--clr-tagline);
+    line-height: 1.5em;
 }
 
 .plate-content {
@@ -1312,12 +1341,6 @@ span.location {
     justify-content: space-around;
     margin-top: 3rem;
     width: 100%;
-}
-
-.plate-fact {
-    color: var(--clr-fact);
-    font-size: 0.7em;
-    line-height: 1.5em;
 }
 
 @media all and (min-width: 58em) {

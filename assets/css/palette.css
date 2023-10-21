@@ -52,7 +52,7 @@
   --clr-figcaption: #888;
   --clr-tactile: rgba(64, 60, 96, 0.60);
   --clr-picto: #000;
-  --clr-fact: #bab3ff;
+  --clr-tagline: #bab3ff;
   --filter-img-brightness: brightness(.8);
   }
 }
@@ -83,7 +83,7 @@
   --clr-figcaption: #888;
   --clr-tactile: rgba(64, 60, 96, 0.60);
   --clr-picto: #000;
-  --clr-fact: #bab3ff;
+  --clr-tagline: #bab3ff;
   --filter-img-brightness: brightness(.8);
 }
 
