@@ -291,6 +291,8 @@ img {
 @media screen and (min-width: 40em) {
   .alya img {
     border: 8px solid var(--clr-six);
+    max-height: 30%;
+    max-width: 30%;
   }
 }
 
