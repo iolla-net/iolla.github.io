@@ -342,7 +342,7 @@ figcaption {
   margin-bottom: 2rem;
 }
 
-h1 + .intro {
+h1 + .intro, .footer-peak.alya {
   margin-top: 0rem;
 }
 
