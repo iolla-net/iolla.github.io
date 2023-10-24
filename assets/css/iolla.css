@@ -296,12 +296,17 @@ img {
   margin: 0 auto;
   }
 
+.plate svg {width: 80px; height: 80px;}
+
 @media screen and (min-width: 40em) {
   .alya img {
     border: 8px solid var(--clr-six);
     max-height: 30%;
     max-width: 30%;
   }
+
+.plate svg {width: 110px; height: 110px;}
+
 }
 
 .focal figure img {
