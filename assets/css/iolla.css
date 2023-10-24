@@ -636,7 +636,7 @@ blockquote:last-child {
 .facet .plate-content {
   display: grid;
   align-content: flex-end;
-  place-items: end;
+  place-items: start;
   grid-row-start: 1;
 }
 .facet .plate-title {
