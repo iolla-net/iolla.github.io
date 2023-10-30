@@ -112,7 +112,7 @@ p, ul, ol, figure, pre {
   margin: 0 0 1.5rem;
 }
 
-p:not(.alya p):not(:focus):first-child:first-letter {
+p:not(:focus):first-child:first-letter, .dcap:first-letter {
 	float: left;
 	font-family: Montserrat-semibold, Helvetica, Arial, sans-serif;
 	font-size: 3.5em;
@@ -126,7 +126,7 @@ p:not(.alya p):not(:focus):first-child:first-letter {
 }
 
 @media screen and (min-width: 30em) {
-  p:not(.alya p):not(:focus):first-child:first-letter {font-size: 5.5em;}
+  p:not(:focus):first-child:first-letter {font-size: 5.5em;}
 }
 
 /* Headings */
@@ -1410,11 +1410,6 @@ html {
 .footer-menu a:hover,
 .footer-privacy.is-active a,
 .footer-privacy a:hover {background-position: 0 33px;}
-
-p.dropcap:not(:focus):first-letter {
-	padding: 20px 10px 20px 10px;
-	border-radius: 5px;
-	}
 
 blockquote {
 	background-position: left 40px top 40px, right 60px bottom 60px;
