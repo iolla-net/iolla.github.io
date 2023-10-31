@@ -229,7 +229,7 @@ a:active {
   visibility: hidden;
   background-color: var(--clr-nine);
   color: var(--clr-text);
-  font-size: 0.6rem;
+  font-size: .6rem;
   text-align: center;
   padding: 5px 10px;
   border-radius: 10px;
@@ -319,7 +319,7 @@ img {
 }
 
 figcaption {
-  font-size: 0.6rem;
+  font-size: .6rem;
   line-height: 1.5rem;
   color: var(--clr-figcaption);
 }
@@ -424,7 +424,7 @@ h1 + .intro, .footer-peak.alya {
 }
 
 blockquote {
-  font-size: 0.8rem;
+  font-size: .8rem;
   line-height: 1.5em;
   font-family: Montserrat-light-i, sans-serif;
   font-style: italic;
@@ -449,7 +449,7 @@ blockquote:last-child {
 }
 
 .project-meta, .tag-cluster {
-  font-size: 0.9rem;
+  font-size: .9rem;
   margin-bottom: 1rem;
 }
 
@@ -948,7 +948,7 @@ blockquote:last-child {
     display: block;
     height: 100%;
     width: 100%;
-    font-size: 0.75rem;
+    font-size: .75rem;
     font-family: Montserrat-regular, Helvetica, Arial, sans-serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -1096,7 +1096,7 @@ body {
   font-family: Montserrat-regular, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 0.8rem;
+  font-size: .8rem;
   line-height: 1.2rem;
   gap: 10px 40px;
   align-items: center;
@@ -1162,7 +1162,7 @@ body {
   max-width: 48rem;
   margin: 0 auto;
   padding: .75rem;
-  font-size: 0.8rem;
+  font-size: .8rem;
   text-align: right;
   position: sticky;
   top: 100%;
@@ -1184,12 +1184,12 @@ body {
 .footer-copyright a {
   font-family: Montserrat-regular, Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-size: 0.8rem;}
+  font-size: .8rem;}
 
 span.location {
   font-family: Montserrat-light-i, sans-serif;
   font-style: italic;
-  font-size: 0.5rem;
+  font-size: .5rem;
   vertical-align: middle;
   font-variant: petite-caps;
 }
@@ -1345,7 +1345,7 @@ span.location {
 }
 
 .plate-tagline {
-    font-size: 0.8em;
+    font-size: .8em;
     margin-bottom: 1.5em;
     color: var(--clr-tagline);
     line-height: 1.5em;
@@ -1416,14 +1416,14 @@ blockquote {
 	}
 
 .hear-iolla .say-iolla {
-	font-size: 0.7rem;
+	font-size: .7rem;
   	padding: 8px 3px;
   	width: 260px;
   	margin-left: -130px;
 	}
 
 .read-iolla {
-  font-size: 0.6rem;
+  font-size: .6rem;
   padding: 2px 4px;
   width: 200px;
   left: 60%;
@@ -1438,7 +1438,7 @@ blockquote {
 
 .plate svg:not(.attractor svg):not(.error svg) {width: 180px; height: 180px;}
 .pagination-item svg {width: 40px; height: 40px;}
-.pagination-label {font-size: 0.8rem; width: 1.7rem;}
+.pagination-label {font-size: .8rem; width: 1.7rem;}
 }
 
 @media all and (min-width: 150em) {
