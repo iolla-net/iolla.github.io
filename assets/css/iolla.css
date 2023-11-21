@@ -934,6 +934,10 @@ blockquote:last-child {
 
 .pagination-label-text {display: none;}
 
+.pagination-item.is-inactive {
+  visibility: hidden;
+}
+
 @media all and (min-width: 75em) {
   .pagination-item {
     position: fixed;
