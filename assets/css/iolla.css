@@ -491,6 +491,7 @@ blockquote:last-child {
 .btn:hover, .btn:focus {
   color: var(--clr-one);
 	background: var(--clr-two);
+	transform: scale(0.95);
 }
 
 .show {
