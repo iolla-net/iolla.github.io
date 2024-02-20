@@ -562,6 +562,10 @@ blockquote:last-child {
   grid-template-columns: 1fr;
 }
 
+.surface, .facet {
+ --columns: 4;
+}
+
 .grid > .column {
   margin-bottom: var(--gutter);
 }
@@ -574,6 +578,12 @@ blockquote:last-child {
   grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
   grid-auto-flow: dense;
 }
+
+.autogrid .work-grid-title {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+.autogrid figcaption {line-height: inherit;}
 
 .group {
 	--gutter: .1rem;
@@ -1118,7 +1128,8 @@ body {
 
 .menu-item:hover,
 .footer-menu a:hover,
-.footer-privacy a:hover {
+.footer-privacy a:hover,
+.autogrid figure:hover .work-grid-title {
 	display: inline;
   	background:
     linear-gradient(
@@ -1129,6 +1140,9 @@ body {
   text-decoration: none;
   transition: .25s;
 }
+
+.autogrid .work-grid-title {color: var(--clr-text);}
+.autogrid figure:hover .work-grid-title {background-position: 0 13px;}
 
 .menu-item.is-active, .footer-privacy.is-active a {
   background:
