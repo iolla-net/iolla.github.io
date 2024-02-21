@@ -819,7 +819,7 @@ blockquote:last-child {
 }
 
 @media screen and (min-width: 40em) {
-  .land {
+  .land, .lander {
     grid-template-columns: repeat(2, 1fr);
   }
   .land li {
