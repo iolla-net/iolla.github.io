@@ -1197,6 +1197,8 @@ body {
   fill: var(--clr-text);
 }
 
+.heart svg {fill: var(--clr-two);}
+
 .footer-copyright a:hover .heart svg {
   animation: pulsing-heart .6s linear infinite; fill: #f66;
 }
