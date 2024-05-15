@@ -1190,6 +1190,10 @@ body {
   position: sticky;
   top: 100%;
   text-transform: uppercase;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: space-between;
+  text-align: center;
 }
 
 .footer-privacy svg, .footer-copyright svg {
@@ -1197,7 +1201,7 @@ body {
   vertical-align: text-bottom;
   width: 0.666rem;
   height: 1rem;
-  fill: var(--clr-text);
+  fill: var(--clr-two);
 }
 
 .heart svg {fill: var(--clr-two);}
@@ -1227,7 +1231,8 @@ span.location {
 	border-radius: 100%;
 	fill: var(--clr-two);
 	background: var(--clr-one);
-  justify-self: end;
+  	justify-self: end;
+  	grid-column-start: 2;
 }
 
 .footer-peak svg {
@@ -1239,6 +1244,18 @@ span.location {
   background: var(--clr-two);
 }
 
+.footer-menu {
+  justify-self: end;
+  text-align: right;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.footer-privacy {justify-self: start; text-align: left; grid-row: 2;}
+.footer-copyright {justify-self: middle; text-align: left; grid-row: 1; white-space: nowrap;}
+
+
 @media all and (min-width: 31.5em) {
   .header {
     margin: 0 auto 0rem;
@@ -1247,32 +1264,6 @@ span.location {
 
   .footer {padding: .5rem 1.5rem 1.5rem;
   }
-}
-
-@media all and (min-width: 40em) {
-  .footer {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    justify-content: space-between;
-    text-align: center;
-    }
-
-  .footer-menu {
-  	justify-self: end;
-  	text-align: right;
-  	grid-column-start: 2;
-  	grid-row-start: 1;
-  	grid-row-end: 5;
-  	}
-
-  .footer-privacy {justify-self: start; text-align: left; grid-row: 2;}
-  .footer-copyright {justify-self: middle; text-align: left; grid-row: 1;}
-  .footer-privacy svg {fill: var(--clr-two);}
-
-  .footer-peak {
-    grid-column-start: 2;
-    grid-row-start: 5;
-    }
 }
 
 @media all and (min-width: 55em) {
@@ -1498,3 +1489,4 @@ blockquote {
 .plate svg:not(.attractor svg):not(.error svg) {width: 220px; height: 220px;}
 .pagination-item svg {width: 50px; height: 50px;}
 }
+
