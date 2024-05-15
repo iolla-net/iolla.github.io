@@ -242,7 +242,7 @@ a:active {
 
 .read-iolla {
   width: 100px;
-  margin-left: -50px; /* 1/2 width (130/2=65) centers tooltip */
+  margin-left: -50px;
 }
 
 .hear-iolla:hover .say-iolla {
