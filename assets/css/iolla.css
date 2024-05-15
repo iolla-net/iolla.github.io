@@ -1448,7 +1448,7 @@ blockquote {
 	}
 
 .read-iolla {
-	padding: 2px;
+	padding: 0px;
 	width: 160px;
 	margin-left: -80px;
 }
@@ -1491,8 +1491,8 @@ blockquote {
 	}
 
 .read-iolla {
-  width: 240px;
-  margin-left: -120px;
+  width: 200px;
+  margin-left: -100px;
 	}
 
 .plate svg:not(.attractor svg):not(.error svg) {width: 220px; height: 220px;}
