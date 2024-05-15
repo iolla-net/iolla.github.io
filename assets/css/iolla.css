@@ -230,7 +230,7 @@ a:active {
   color: var(--clr-text);
   font-size: .6rem;
   text-align: center;
-  padding: 5px 10px;
+  padding: 4px;
   border-radius: 10px;
   position: absolute;
   z-index: 1;
@@ -240,7 +240,10 @@ a:active {
   margin-left: -65px; /* 1/2 width (130/2=65) centers tooltip */
 }
 
-.read-iolla {margin-left: -50px;}
+.read-iolla {
+  width: 100px;
+  margin-left: -50px; /* 1/2 width (130/2=65) centers tooltip */
+}
 
 .hear-iolla:hover .say-iolla {
     visibility: visible;
