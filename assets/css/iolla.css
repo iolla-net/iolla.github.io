@@ -457,7 +457,7 @@ blockquote:last-child {
 .project-meta span:last-child {display: none;}
 
 .project-meta b::after, .tag-cluster b::after, .footer-copyright a::before {
-	content: " — ";
+	content: " - ";
 	color: var(--clr-two);
 }
 
