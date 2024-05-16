@@ -230,7 +230,7 @@ a:active {
   color: var(--clr-text);
   font-size: .6rem;
   text-align: center;
-  padding: 4px;
+  padding: 4px 10px;
   border-radius: 10px;
   position: absolute;
   z-index: 1;
