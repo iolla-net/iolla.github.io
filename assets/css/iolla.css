@@ -235,7 +235,6 @@ a:active {
   position: absolute;
   z-index: 1;
   width: 130px;
-  bottom: 100%;
   left: 50%;
   margin-left: -65px; /* 1/2 width (130/2=65) centers tooltip */
 }
@@ -247,6 +246,9 @@ a:active {
 
 .hear-iolla:hover .say-iolla {
     visibility: visible;
+    bottom: 50%;
+    opacity:0;
+    animation: smooth-modal 0.3s ease forwards;
 }
 
 @media all and (min-width: 40em) {
@@ -257,6 +259,9 @@ a:active {
   .colophon:hover .read-iolla {
     visibility: visible;
     border-radius: 100px;
+    bottom: 60%;
+    opacity:0;
+    animation: smooth-modal 0.3s ease forwards;
   }
 }
 
@@ -532,6 +537,12 @@ blockquote:last-child {
 @keyframes glint {
   0% {opacity: 0.2;}
   100% {opacity: 1;}
+}
+
+@keyframes smooth-modal {
+  to {
+    bottom: 94%;
+    opacity:1;}
 }
 
 @keyframes pulsing-heart {
