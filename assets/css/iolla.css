@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /*
-  # ©John Coyne/iolla website design.
-  # Built with Kirby & liminal substrate.
+  # ©John Coyne/iolla website design
+  # Built with Kirby & liminal substrate
   # CSS prop var defs >
 */
 
@@ -105,7 +105,7 @@ footer, header, main, menu, nav, section, summary {
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, figure, pre {
-  /* Reset font-sizes and normalise margins */
+  /* Reset font-sizes & normalise margins */
   font-size: inherit;
   line-height: inherit;
   margin: 0 0 1.5rem;
@@ -228,20 +228,40 @@ a:active {
   visibility: hidden;
   background-color: var(--clr-nine);
   color: var(--clr-text);
-  font-size: .6rem;
   text-align: center;
-  padding: 4px 10px;
-  border-radius: 10px;
+  font-size: .55rem;
+  padding: 4px;
+  border-radius: 8px;
   position: absolute;
   z-index: 1;
-  width: 130px;
   left: 50%;
-  margin-left: -65px; /* 1/2 width (130/2=65) centers tooltip */
 }
 
 .read-iolla {
-  width: 100px;
-  margin-left: -50px;
+  width: 90px;
+  margin-left: -45px;
+}
+
+.say-iolla {
+  width: 90px;
+  margin-left: -45px; /* 1/2 width (90/2=45) centers tooltip */
+}
+
+
+@media all and (min-width: 30.01em) {
+.say-iolla {
+  font-size: .6rem;
+  width: 110px;
+  margin-left: -55px;
+  }
+}
+
+@media all and (min-width: 31.5em) {
+.say-iolla {
+  font-size: .68rem;
+  width: 130px;
+  margin-left: -65px;
+  }
 }
 
 .hear-iolla:hover .say-iolla {
@@ -258,7 +278,6 @@ a:active {
   }
   .colophon:hover .read-iolla {
     visibility: visible;
-    border-radius: 100px;
     bottom: 60%;
     opacity:0;
     animation: smooth-modal 0.3s ease forwards;
@@ -289,7 +308,7 @@ mark {
 img {
   border-style: none;
   width: 100%;
-  height: 100%; /*auto;*/
+  height: 100%; /*auto*/
   object-fit: cover;
   filter: var(--filter-img-brightness);
 }
@@ -410,8 +429,8 @@ h1 + .intro, .footer-peak.alya {
 
 @supports (-webkit-overflow-scrolling: touch) {
   .text pre > code {
-    /* Enables smoother code sections
-       scrolling on touch devices. */
+    /* Enables smoother code section
+       scrolling on touch devices */
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
   }
@@ -873,7 +892,7 @@ blockquote:last-child {
        touch-screen devices that do not support hover due
        to lack of pointing device. It does not work in all
        mobile browsers, but progressively enhances the
-       experience on supported devices. */
+       experience on supported devices */
     opacity: 0.65;
     /* Reset will-change property prevents it consuming
        unneccessary resources on touch-only devices */
@@ -1030,13 +1049,13 @@ html {
      changing when hovering blocks of text or whitespace,
      which is less distracting */
   cursor: default;
-  /* Required for sticky footer. */
+  /* Required for sticky footer */
   height: 100%;
   /* Prevent adjustments of font size after orientation
-     changes in IE & iOS. */
+     changes in IE & iOS */
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  /* Highlight colour for WebKit-based touch devices. */
+  /* Highlight colour for WebKit-based touch devices */
   -webkit-tap-highlight-color: var(--clr-tactile);
   scroll-behavior: smooth;
   background-image: radial-gradient(var(--clr-one) 1px,
@@ -1055,7 +1074,7 @@ html {
 
 body {
   color: var(--clr-text);
-  /* Required for sticky footer. */
+  /* Required for sticky footer */
   min-height: 100%;
 }
 
@@ -1236,8 +1255,8 @@ span.location {display: none;}
 	border-radius: 100%;
 	fill: var(--clr-two);
 	background: var(--clr-one);
-  	justify-self: end;
-  	grid-column-start: 2;
+  justify-self: end;
+  grid-column-start: 2;
 }
 
 .footer-peak svg {
@@ -1352,7 +1371,7 @@ span.location {display: none;}
   font-size: .85rem;
   /* Flexbox for plate content ensures
      optional button always aligns
-     equally to bottom of plate. */
+     equally to plate bottom */
   display: flex;
   flex-direction: column;
 }
@@ -1408,8 +1427,7 @@ span.location {display: none;}
     }
 
 html {
-	/* increase widescreen font */
-	font-size: 2.5em;
+	font-size: 2.5em; /* increase widescreen font */
 	line-height: 1.7em;
 	}
 
@@ -1446,16 +1464,19 @@ blockquote {
 	}
 
 .hear-iolla .say-iolla {
-	font-size: .7rem;
-  	padding: 8px 3px;
-  	width: 260px;
-  	margin-left: -130px;
+  	padding: 8px;
+  	font-size: .78rem;
+  	line-height: .9rem;
+  	border-radius: 14px;
+  	width: 240px;
+  	margin-left: -120px;
 	}
 
 .read-iolla {
-	padding: 0px;
-	width: 160px;
-	margin-left: -80px;
+	width: 150px;
+	margin-left: -75px;
+	border-radius: 14px;
+	padding: 0;
 }
 
 .focal figure img {
@@ -1471,8 +1492,7 @@ blockquote {
 
 @media all and (min-width: 150em) {
   html {
-	/* increase x-wide screen font */
-	font-size: 3em;
+	font-size: 3em; /* increase x-wide screen font */
 	}
 
 .logo:hover {background-position: 0 70px;}
@@ -1496,11 +1516,10 @@ blockquote {
 	}
 
 .read-iolla {
-  width: 200px;
-  margin-left: -100px;
+  width: 180px;
+  margin-left: -90px;
 	}
 
 .plate svg:not(.attractor svg):not(.error svg) {width: 220px; height: 220px;}
 .pagination-item svg {width: 50px; height: 50px;}
 }
-
