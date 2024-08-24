@@ -1245,7 +1245,7 @@ body {
   text-transform: none;
   font-size: .8rem;}
 
-span.location {display: none;}
+ span.location {display: inline;}
 
 .footer-peak {
   width: 1.4rem;
@@ -1305,15 +1305,6 @@ span.location {display: none;}
   .footer-peak {
     grid-column-start: 3;
     }
-
-  span.location {
-  display: inline;
-  font-family: Montserrat-light-i, sans-serif;
-  font-style: italic;
-  font-size: .5rem;
-  vertical-align: middle;
-  font-variant: petite-caps;
-  }
 }
 
 /* -- 3.4 Main Content ---------------------------------------- */
